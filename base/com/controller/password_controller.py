@@ -1,14 +1,16 @@
-from flask import render_template, request, redirect, url_for, flash
-from base import app
-from base.com.dao.login_dao import LoginDAO
-from base.com.vo.login_vo import LoginVO
-from base.com.vo.password_otp_vo import PasswordotpVO
-from base.com.dao.password_otp_dao import PasswordotpDAO
 import secrets
 import smtplib
+from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from datetime import datetime
+
+from flask import render_template, request, redirect, url_for, flash
+
+from base import app
+from base.com.dao.login_dao import LoginDAO
+from base.com.dao.password_otp_dao import PasswordotpDAO
+from base.com.vo.login_vo import LoginVO
+from base.com.vo.password_otp_vo import PasswordotpVO
 
 
 @app.route('/forgot_password', methods=['GET'])
@@ -26,7 +28,7 @@ def send_password_link():
         login_dao = LoginDAO()
         login_vo.login_username = request.form.get('username')
         status = login_dao.is_exist(login_vo)
-        if status == False:
+        if status is False:
             otp = secrets.token_hex(2)
             password_otp_vo = PasswordotpVO()
             password_otp_dao = PasswordotpDAO()
@@ -52,7 +54,7 @@ def send_password_link():
             text = msg.as_string()
             server.sendmail(sender, receiver, text)
             server.quit()
-            message = 'Successfully sended password reset link to register mail id kindly check.'
+            message = 'Successfully sent password reset link to register e-mail id kindly check!'
             category = 'link sent'
             flash(message, category)
             return redirect('/')
@@ -90,15 +92,15 @@ def reset_user_password():
         result = password_otp_dao.validate(password_otp_vo)
         print(result)
 
-        if result == True:
+        if result:
             login_vo.login_password = request.form.get('password')
             login_dao.update_password(login_vo)
-            message = 'password successfully changed !!!'
+            message = 'Password successfully changed !!!'
             category = 'credentials update'
             flash(message, category)
             return redirect('/')
-        elif result == False:
-            message = 'OTP time limit exceed create new otp !!!'
+        elif result is False:
+            message = 'OTP time limit exceed! Request for new otp !!!'
             category = 'timelimit'
             flash(message, category)
             return redirect(url_for('forgot_password'))

@@ -81,7 +81,6 @@ def user_perform_prediction():
                           "Stock_Purchased_Season", "Stock_Sell_Season", "Stock_Purchased_Month",
                           "Stock_Sell_Duration_Months", "Year"]
             df["Stock_Type"] = stock_type_dic[prediction_stock_type]
-            print(df)
             prediction_no_stock_sell = int(round(model.predict(df)[0]))
 
             season = {1: "summer", 2: "winter", 3: "monsoon"}

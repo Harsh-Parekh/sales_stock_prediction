@@ -64,7 +64,7 @@ def user_insert_user():
 
         login_vo.login_username = request.form.get('username')
         is_exist = login_dao.is_exist(login_vo)
-        if is_exist == True:
+        if is_exist:
 
             login_password = secrets.token_hex(8)
 
@@ -112,7 +112,8 @@ def user_insert_user():
             server.sendmail(sender, receiver, text)
             server.quit()
 
-            flash('Register Successfully!!! U will receive an password mail shortly in your register email.', 'success')
+            flash('Register Successfully!!! You will receive an password mail shortly at your register email.',
+                  'success')
             return redirect('/')
         else:
             flash('Email id already register!!!', 'exist')

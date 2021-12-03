@@ -43,7 +43,7 @@ def validate_login():
         len_login_list = len(login_list)
 
         if len_login_list == 0:
-            error_message = 'username or password is incorrect !!!'
+            error_message = 'Username or password is incorrect !!!'
             category = 'invalid credentials'
             flash(error_message, category)
             return redirect(url_for('load_login'))
