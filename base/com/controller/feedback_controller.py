@@ -29,7 +29,7 @@ def user_load_post_feedback():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_load_post_feedback route error occured>>>>>>>>>>', ex)
+        print('user_load_post_feedback route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/post_feedback', methods=['POST'])
@@ -54,7 +54,7 @@ def user_post_feedback():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_post_feedback route error occured>>>>>>>>>>', ex)
+        print('user_post_feedback route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/delete_feedback', methods=['GET'])
@@ -69,7 +69,7 @@ def admin_delete_feedback():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_delete_feedback route error occured>>>>>>>>>>', ex)
+        print('admin_delete_feedback route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/view_feedback', methods=['GET'])
@@ -82,4 +82,4 @@ def admin_view_feedback():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_feedback route error occured>>>>>>>>>>', ex)
+        print('admin_view_feedback route error occurred>>>>>>>>>>', ex)

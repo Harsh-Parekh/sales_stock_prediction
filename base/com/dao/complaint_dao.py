@@ -37,5 +37,10 @@ class ComplaintDAO:
     def complaint_pending(self):
         total_complaint = len(db.session.query(ComplaintVO).all())
         complaint_list_pending = len(ComplaintVO.query.filter_by(complaint_status='pending').all())
+
+        if total_complaint == 0:
+            percentage = 0.0
+            return percentage, complaint_list_pending
+
         percentage = round((complaint_list_pending * 100) / total_complaint, 2)
-        return (percentage, complaint_list_pending)
+        return percentage, complaint_list_pending

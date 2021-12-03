@@ -38,7 +38,7 @@ def user_load_post_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_load_post_complaint route error occured>>>>>>>>>>', ex)
+        print('user_load_post_complaint route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/post_complaint', methods=['POST'])
@@ -66,7 +66,7 @@ def user_post_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_post_compaint route error occured>>>>>>>>>>', ex)
+        print('user_post_compaint route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/delete_complaint', methods=["GET"])
@@ -81,7 +81,7 @@ def admin_delete_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_delete_complaint route error occured>>>>>>>>>>', ex)
+        print('admin_delete_complaint route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/view_complaint', methods=["GET"])
@@ -94,7 +94,7 @@ def admin_view_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_complaint route error occured>>>>>>>>>>', ex)
+        print('admin_view_complaint route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/reply_complaint', methods=["GET"])
@@ -109,7 +109,7 @@ def admin_reply_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_reply_complaint route error occured>>>>>>>>>>', ex)
+        print('admin_reply_complaint route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/replied_complaint', methods=["POST"])
@@ -138,4 +138,4 @@ def admin_replied_complaint():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_replied_complaint route error occured>>>>>>>>>>', ex)
+        print('admin_replied_complaint route error occurred>>>>>>>>>>', ex)

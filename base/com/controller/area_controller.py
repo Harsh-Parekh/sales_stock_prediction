@@ -23,7 +23,7 @@ def admin_ajax_city():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_ajax_city route error occured>>>>>>>>>>', ex)
+        print('admin_ajax_city route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/load_area', methods=["GET"])
@@ -36,7 +36,7 @@ def admin_load_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_load_area route exception occured>>>>>>>>>>', ex)
+        print('admin_load_area route exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/insert_area', methods=["POST"])
@@ -54,7 +54,7 @@ def admin_insert_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_insert_area route exception occured>>>>>>>>>>', ex)
+        print('admin_insert_area route exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/view_area', methods=["GET"])
@@ -67,7 +67,7 @@ def admin_view_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_area route exception occured>>>>>>>>>>', ex)
+        print('admin_view_area route exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/delete_area', methods=["GET"])
@@ -82,7 +82,7 @@ def admin_delete_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_delete_area route exception occured>>>>>>>>>>', ex)
+        print('admin_delete_area route exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/edit_area', methods=['GET'])
@@ -105,7 +105,7 @@ def admin_edit_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_edit_area route exception occured>>>>>>>>>>', ex)
+        print('admin_edit_area route exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/update_area', methods=["POST"])
@@ -124,4 +124,4 @@ def admin_update_area():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_update_area exception occured>>>>>>>>>>', ex)
+        print('admin_update_area exception occurred>>>>>>>>>>', ex)

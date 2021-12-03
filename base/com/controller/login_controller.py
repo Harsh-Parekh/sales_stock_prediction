@@ -20,7 +20,7 @@ def load_login():
     try:
         return render_template('login.html')
     except Exception as ex:
-        print("load_login route exception occured>>>>>>>>>>", ex)
+        print("load_login route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route("/validate_login", methods=['POST'])
@@ -103,7 +103,7 @@ def validate_login():
                 else:
                     return redirect(url_for('logout_session'))
     except Exception as ex:
-        print("validate_login route exception occured>>>>>>>>>>", ex)
+        print("validate_login route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/load_dashboard', methods=['GET'])
@@ -111,21 +111,31 @@ def load_dashboard():
     try:
 
         if login_session() == 'admin':
+
+            login_dao = LoginDAO()
             feedback_dao = FeedbackDAO()
             complaint_dao = ComplaintDAO()
-            login_dao = LoginDAO()
             prediction_dao = PredictionDAO()
 
             userdata = login_dao.users()
-            complainpendingdata = complaint_dao.complaint_pending()
+            complain_pending_data = complaint_dao.complaint_pending()
+
             feedback = feedback_dao.feedback_data()
             prediction = prediction_dao.total_prediction()
-            percentage = round((prediction * 100) / userdata[1], 2)
-            prediction = {'percentage': percentage, 'prediction': prediction}
+
+            if userdata[1] != 0:
+                percentage = round((prediction * 100) / userdata[1], 2)
+                prediction = {'percentage': percentage, 'prediction': prediction}
+
+            else:
+                percentage = 0.0
+                prediction = {'percentage': percentage, 'prediction': prediction}
+
             make_donut_chart(feedback)
+
             return render_template('admin/index.html', feedback=feedback,
-                                   complainpending={'percentage': complainpendingdata[0],
-                                                    'complaint': complainpendingdata[1]},
+                                   complainpending={'percentage': complain_pending_data[0],
+                                                    'complaint': complain_pending_data[1]},
                                    user={'percentage': userdata[0], 'total': userdata[1]}
                                    , prediction=prediction, activeuser=userdata[2], blockuser=userdata[3])
 
@@ -135,7 +145,7 @@ def load_dashboard():
         else:
             return redirect(url_for('logout_session'))
     except Exception as ex:
-        print("load_dashboard route exception occured>>>>>>>>>>", ex)
+        print("load_dashboard route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/login_session')
@@ -168,7 +178,7 @@ def login_session():
             print("<<<<<<<<<<<<<<<<True>>>>>>>>>>>>>>>>>>>>")
         return login_role_flag
     except Exception as ex:
-        print("login_session route exception occured>>>>>>>>>>", ex)
+        print("login_session route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route("/logout_session", methods=['GET'])
@@ -199,4 +209,4 @@ def logout_session():
                     break
         return response
     except Exception as ex:
-        print("logout_session route exception occured>>>>>>>>>>", ex)
+        print("logout_session route exception occurred>>>>>>>>>>", ex)

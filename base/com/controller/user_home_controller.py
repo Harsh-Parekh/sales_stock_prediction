@@ -28,7 +28,7 @@ def user_ajax_city():
         data = [i.as_dict() for i in city_vo_list]
         return jsonify(data)
     except Exception as ex:
-        print('user_ajax_city route error occured>>>>>>>>>>', ex)
+        print('user_ajax_city route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/ajax_area', methods=['GET'])
@@ -41,7 +41,7 @@ def user_ajax_area():
         data = [i.as_dict() for i in area_vo_list]
         return jsonify(data)
     except Exception as ex:
-        print('user_ajax_area route error occured>>>>>>>>>>', ex)
+        print('user_ajax_area route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/load_register', methods=['GET'])
@@ -51,7 +51,7 @@ def user_load_register():
         state_list = state_dao.search_state()
         return render_template('user/register.html', state_data=state_list)
     except Exception as ex:
-        print('user_load_register route error occured>>>>>>>>>>', ex)
+        print('user_load_register route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/insert_user', methods=["POST"])
@@ -118,7 +118,7 @@ def user_insert_user():
             flash('Email id already register!!!', 'exist')
             return redirect(url_for('user_load_register'))
     except Exception as ex:
-        print('user_insert_user route error occured>>>>>>>>>>', ex)
+        print('user_insert_user route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/change_password', methods=['GET'])
@@ -132,7 +132,7 @@ def user_change_password():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_change_password route error occured>>>>>>>>>>', ex)
+        print('user_change_password route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/update_profile_password', methods=['POST'])
@@ -151,7 +151,7 @@ def user_update_profile_password():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_update_profile_password route error occured>>>>>>>>>>', ex)
+        print('user_update_profile_password route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/load_edit_profile')
@@ -178,7 +178,7 @@ def user_load_edit_profile():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_load_edit_profile route error occured>>>>>>>>>>', ex)
+        print('user_load_edit_profile route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/update_profile', methods=['POST'])
