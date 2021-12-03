@@ -33,7 +33,7 @@ def admin_view_prediction():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_prediction route error occured>>>>>>>>>>', ex)
+        print('admin_view_prediction route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/add_prediction', methods=['GET'])
@@ -44,7 +44,7 @@ def user_add_prediction():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_add_prediction route error occured>>>>>>>>>>', ex)
+        print('user_add_prediction route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/perform_prediction', methods=['POST'])
@@ -132,7 +132,7 @@ def user_view_prediction():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_view_prediction route error occured>>>>>>>>>>', ex)
+        print('user_view_prediction route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/view_previous_prediction', methods=['GET'])
@@ -148,7 +148,7 @@ def user_view_previous_prediction():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_view_prediction route error occured>>>>>>>>>>', ex)
+        print('user_view_prediction route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/view_prediction_data_user', methods=['GET'])
@@ -164,7 +164,7 @@ def admin_view_prediction_data_user():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_prediction_data_user route error occured>>>>>>>>>>', ex)
+        print('admin_view_prediction_data_user route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/view_prediction_data', methods=['GET'])
@@ -180,4 +180,4 @@ def user_view_prediction_data():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_prediction_data_user route error occured>>>>>>>>>>', ex)
+        print('admin_view_prediction_data_user route error occurred>>>>>>>>>>', ex)

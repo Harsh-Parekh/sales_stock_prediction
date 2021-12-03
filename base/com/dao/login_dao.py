@@ -40,5 +40,10 @@ class LoginDAO:
         user_list_active = len(LoginVO.query.filter_by(login_status='active').all()) - 1
         total_user = len(db.session.query(LoginVO).all()) - 1
         active, block = user_list_active, total_user - user_list_active
+
+        if total_user == 0:
+            percentage = 0.0
+            return percentage, total_user, active, block
+
         percentage = round((user_list_active * 100 / total_user), 2)
-        return (percentage, total_user, active, block)
+        return percentage, total_user, active, block

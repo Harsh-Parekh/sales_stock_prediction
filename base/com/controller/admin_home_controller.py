@@ -17,7 +17,7 @@ def admin_view_user_organization():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_organization route error occured>>>>>>>>>>', ex)
+        print('admin_view_organization route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/user_block_unblock', methods=['GET'])
@@ -32,4 +32,4 @@ def admin_user_block_unblock():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_user_block route error occured>>>>>>>>>', ex)
+        print('admin_user_block route error occurred>>>>>>>>>', ex)

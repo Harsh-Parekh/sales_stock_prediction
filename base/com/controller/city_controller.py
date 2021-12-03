@@ -18,7 +18,7 @@ def admin_load_city():
             return logout_session()
 
     except Exception as ex:
-        print("admin_load_city route exception occured>>>>>>>>>", ex)
+        print("admin_load_city route exception occurred>>>>>>>>>", ex)
 
 
 @app.route('/admin/insert_city', methods=["POST"])
@@ -38,7 +38,7 @@ def admin_insert_city():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_insert_city route exception occured>>>>>>>>>>", ex)
+        print("admin_insert_city route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/view_city', methods=["GET"])
@@ -51,7 +51,7 @@ def admin_view_city():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_view_city route exception occured>>>>>>>>>", ex)
+        print("admin_view_city route exception occurred>>>>>>>>>", ex)
 
 
 @app.route('/admin/delete_city', methods=["GET"])
@@ -67,7 +67,7 @@ def admin_delete_city():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_delete_state route exception occured>>>>>>>>>>", ex)
+        print("admin_delete_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/edit_city/', methods=["GET"])
@@ -85,7 +85,7 @@ def admin_edit_city():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_edit_city route exception occured>>>>>>>>>>", ex)
+        print("admin_edit_city route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/update_city', methods=["POST"])
@@ -103,4 +103,4 @@ def admin_update_city():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_update_city route exception occured>>>>>>>>>>", ex)
+        print("admin_update_city route exception occurred>>>>>>>>>>", ex)

@@ -24,7 +24,7 @@ def admin_load_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_load_dataset exception occured>>>>>>>>>>', ex)
+        print('admin_load_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/load_dataset', methods=['GET'])
@@ -35,7 +35,7 @@ def user_load_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_load_dataset exception occured>>>>>>>>>>', ex)
+        print('user_load_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/view_dataset', methods=['GET'])
@@ -48,7 +48,7 @@ def admin_view_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_view_dataset exception occured>>>>>>>>>>', ex)
+        print('admin_view_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/view_dataset', methods=['GET'])
@@ -68,7 +68,7 @@ def user_view_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_view_dataset exception occured>>>>>>>>>>', ex)
+        print('user_view_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/insert_dataset', methods=['POST'])
@@ -97,7 +97,7 @@ def admin_insert_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_insert_dataset exception occured>>>>>>>>>>', ex)
+        print('admin_insert_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/user/insert_dataset', methods=['POST'])
@@ -174,7 +174,7 @@ def user_insert_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('user_insert_dataset exception occured>>>>>>>>>>', ex)
+        print('user_insert_dataset exception occurred>>>>>>>>>>', ex)
 
 
 @app.route('/admin/delete_dataset')
@@ -189,4 +189,4 @@ def admin_delete_dataset():
         else:
             return logout_session()
     except Exception as ex:
-        print('admin_delete_dataset exception occured>>>>>>>>>>', ex)
+        print('admin_delete_dataset exception occurred>>>>>>>>>>', ex)

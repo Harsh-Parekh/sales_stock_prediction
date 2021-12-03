@@ -15,7 +15,7 @@ def admin_load_state():
             return logout_session()
 
     except Exception as ex:
-        print("admin_load_state route exception occured>>>>>>>>>>", ex)
+        print("admin_load_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/insert_state', methods=["POST"])
@@ -31,7 +31,7 @@ def admin_insert_state():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_insert_state route exception occured>>>>>>>>>>", ex)
+        print("admin_insert_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/view_state', methods=["GET"])
@@ -44,7 +44,7 @@ def admin_view_state():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_view_state route exception occured>>>>>>>>>>", ex)
+        print("admin_view_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/delete_state', methods=["GET"])
@@ -60,7 +60,7 @@ def admin_delete_state():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_delete_state route exception occured>>>>>>>>>>", ex)
+        print("admin_delete_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/edit_state/', methods=["GET"])
@@ -76,7 +76,7 @@ def admin_edit_state():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_edit_state route exception occured>>>>>>>>>>", ex)
+        print("admin_edit_state route exception occurred>>>>>>>>>>", ex)
 
 
 @app.route('/admin/update_state', methods=["POST"])
@@ -96,4 +96,4 @@ def admin_update_state():
         else:
             return logout_session()
     except Exception as ex:
-        print("admin_update_state route exception occured>>>>>>>>>>", ex)
+        print("admin_update_state route exception occurred>>>>>>>>>>", ex)

@@ -16,7 +16,7 @@ def forgot_password():
     try:
         return render_template('user/forgotpassword.html')
     except Exception as ex:
-        print('forgot_password route error occured>>>>>>>>>>', ex)
+        print('forgot_password route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/send_password_link', methods=['POST'])
@@ -62,7 +62,7 @@ def send_password_link():
             flash(error_message, category)
             return redirect(url_for('forgot_password'))
     except Exception as ex:
-        print('forgot_password route error occured>>>>>>>>>>', ex)
+        print('forgot_password route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/reset_password', methods=['GET'])
@@ -70,7 +70,7 @@ def reset_password():
     try:
         return render_template('user/resetpassword.html')
     except Exception as ex:
-        print('reset_password route error occured>>>>>>>>>>', ex)
+        print('reset_password route error occurred>>>>>>>>>>', ex)
 
 
 @app.route('/reset_user_password', methods=['POST'])
@@ -109,4 +109,4 @@ def reset_user_password():
             return redirect(url_for('reset_password'))
 
     except Exception as ex:
-        print('reset_user_password route error occured>>>>>>>>>>', ex)
+        print('reset_user_password route error occurred>>>>>>>>>>', ex)
