@@ -90,7 +90,7 @@ def admin_view_complaint():
         if login_session() == 'admin':
             complaint_dao = ComplaintDAO()
             complaint_vo_list = complaint_dao.admin_complaint_list()
-            return render_template('admin/viewfiles/viewComplaint.html', complaintdata=complaint_vo_list)
+            return render_template('admin/view_files/viewComplaint.html', complaintdata=complaint_vo_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -105,7 +105,7 @@ def admin_reply_complaint():
             complain_dao = ComplaintDAO()
             complaint_vo.complaint_id = request.args.get('complaintId')
             complaint_vo_list = complain_dao.get_complaint(complaint_vo)
-            return render_template('admin/addfiles/addReply.html', complaint_data=complaint_vo_list)
+            return render_template('admin/add_files/addReply.html', complaint_data=complaint_vo_list)
         else:
             return logout_session()
     except Exception as ex:

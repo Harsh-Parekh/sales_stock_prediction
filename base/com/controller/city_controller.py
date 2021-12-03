@@ -13,7 +13,7 @@ def admin_load_city():
         if login_session() == 'admin':
             state_dao = StateDAO()
             state_vo_list = state_dao.search_state()
-            return render_template('admin/addfiles/addCity.html', state_data=state_vo_list)
+            return render_template('admin/add_files/addCity.html', state_data=state_vo_list)
         else:
             return logout_session()
 
@@ -47,7 +47,7 @@ def admin_view_city():
         if login_session() == 'admin':
             city_dao = CityDAO()
             city_dao_list = city_dao.search_city()
-            return render_template('admin/viewfiles/viewCity.html', city_data=city_dao_list)
+            return render_template('admin/view_files/viewCity.html', city_data=city_dao_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -81,7 +81,7 @@ def admin_edit_city():
             city_id = request.args.get('cityId')
             city_vo.city_id = city_id
             city_vo_list = city_dao.edit_city(city_vo)
-            return render_template('admin/editfiles/editCity.html', city_data=city_vo_list, state_data=state_dao_list)
+            return render_template('admin/edit_files/editCity.html', city_data=city_vo_list, state_data=state_dao_list)
         else:
             return logout_session()
     except Exception as ex:

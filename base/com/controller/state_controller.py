@@ -10,7 +10,7 @@ from base.com.vo.state_vo import StateVO
 def admin_load_state():
     try:
         if login_session() == 'admin':
-            return render_template('admin/addfiles/addState.html')
+            return render_template('admin/add_files/addState.html')
         else:
             return logout_session()
 
@@ -40,7 +40,7 @@ def admin_view_state():
         if login_session() == "admin":
             state_dao = StateDAO()
             state_vo_list = state_dao.search_state()
-            return render_template('admin/viewfiles/viewState.html', state_data=state_vo_list)
+            return render_template('admin/view_files/viewState.html', state_data=state_vo_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -72,7 +72,7 @@ def admin_edit_state():
             state_id = request.args.get('stateId')
             state_vo.state_id = state_id
             state_vo_list = state_dao.edit_state(state_vo)
-            return render_template('admin/editfiles/editState.html', state_data=state_vo_list)
+            return render_template('admin/edit_files/editState.html', state_data=state_vo_list)
         else:
             return logout_session()
     except Exception as ex:

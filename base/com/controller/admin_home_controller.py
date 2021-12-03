@@ -12,8 +12,7 @@ def admin_view_user_organization():
         if login_session() == 'admin':
             user_dao = UserDAO()
             user_vo_list = user_dao.search_user()
-            print(user_vo_list)
-            return render_template('admin/viewfiles/viewUserOrganization.html', user_list=user_vo_list)
+            return render_template('admin/view_files/viewUserOrganization.html', user_list=user_vo_list)
         else:
             return logout_session()
     except Exception as ex:

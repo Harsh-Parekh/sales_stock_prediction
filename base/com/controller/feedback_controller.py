@@ -78,7 +78,7 @@ def admin_view_feedback():
         if login_session() == 'admin':
             feedback_dao = FeedbackDAO()
             feedback_vo_list = feedback_dao.admin_feeback_list()
-            return render_template('admin/viewfiles/viewFeedback.html', feedbackdata=feedback_vo_list)
+            return render_template('admin/view_files/viewFeedback.html', feedbackdata=feedback_vo_list)
         else:
             return logout_session()
     except Exception as ex:

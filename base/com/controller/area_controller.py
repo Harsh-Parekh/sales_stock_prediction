@@ -32,7 +32,7 @@ def admin_load_area():
         if login_session() == 'admin':
             state_vo = StateDAO()
             state_vo_list = state_vo.search_state()
-            return render_template('admin/addfiles/addArea.html', state_data=state_vo_list)
+            return render_template('admin/add_files/addArea.html', state_data=state_vo_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -63,7 +63,7 @@ def admin_view_area():
         if login_session() == 'admin':
             area_dao = AreaDAO()
             area_vo_list = area_dao.search_area()
-            return render_template('admin/viewfiles/viewArea.html', area_data=area_vo_list)
+            return render_template('admin/view_files/viewArea.html', area_data=area_vo_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -100,7 +100,7 @@ def admin_edit_area():
             state_vo.state_id = state_city_area[0][2].state_id
             city_vo_list = city_dao.get_city(state_vo)
             area_vo_list = area_dao.edit_area(area_vo)
-            return render_template('admin/editfiles/editArea.html', area_data=area_vo_list, state_data=state_vo_list,
+            return render_template('admin/edit_files/editArea.html', area_data=area_vo_list, state_data=state_vo_list,
                                    city_data=city_vo_list, multi_record=state_city_area)
         else:
             return logout_session()

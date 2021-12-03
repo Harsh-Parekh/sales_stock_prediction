@@ -29,7 +29,7 @@ def admin_view_prediction():
         if login_session() == 'admin':
             prediction_dao = PredictionDAO()
             prediction_vo_list = prediction_dao.search_prediction()
-            return render_template('admin/viewfiles/viewPredictions.html', prediction_vo_list=prediction_vo_list)
+            return render_template('admin/view_files/viewPredictions.html', prediction_vo_list=prediction_vo_list)
         else:
             return logout_session()
     except Exception as ex:
@@ -160,7 +160,7 @@ def admin_view_prediction_data_user():
             predictionId = request.args.get('predictionId')
             prediction_vo.prediction_id = predictionId
             prediction_vo_list = prediction_dao.previous_prediction(prediction_vo)
-            return render_template("admin/viewfiles/viewpredictionData.html", prediction_vo_list=prediction_vo_list)
+            return render_template("admin/view_files/viewpredictionData.html", prediction_vo_list=prediction_vo_list)
         else:
             return logout_session()
     except Exception as ex:

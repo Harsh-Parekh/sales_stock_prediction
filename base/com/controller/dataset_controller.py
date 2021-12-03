@@ -20,7 +20,7 @@ from email.mime.text import MIMEText
 def admin_load_dataset():
     try:
         if login_session() == 'admin':
-            return render_template('admin/addfiles/addDataset.html')
+            return render_template('admin/add_files/addDataset.html')
         else:
             return logout_session()
     except Exception as ex:
@@ -44,7 +44,7 @@ def admin_view_dataset():
         if login_session() == 'admin':
             dataset_vo = DatasetDAO()
             dataset_vo_list = dataset_vo.search_datatset()
-            return render_template('admin/viewfiles/viewDataset.html', dataset_data=dataset_vo_list)
+            return render_template('admin/view_files/viewDataset.html', dataset_data=dataset_vo_list)
         else:
             return logout_session()
     except Exception as ex:
