@@ -1,0 +1,70 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/load_dashboard">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Home</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#prediction" aria-expanded="false"
+               aria-controls="prediction">
+                <i class="mdi mdi-chart-donut menu-icon"></i>
+                <span class="menu-title">Prediction</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="prediction">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/user/add_prediction">Perform Prediction</a>
+                    <li class="nav-item"><a class="nav-link" href="/user/view_prediction">View Previous Prediction</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#dataset" aria-expanded="false" aria-controls="dataset">
+                <i class="mdi mdi-database menu-icon"></i>
+                <span class="menu-title">Dataset</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="dataset">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/user/load_dataset">Add Dataset</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/user/view_dataset">View Dataset</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/user/load_post_complaint">
+                <i class="mdi mdi-comment-outline menu-icon"></i>
+                <span class="menu-title">Complaint</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/user/load_post_feedback">
+                <i class="mdi mdi-thumbs-up-down menu-icon"></i>
+                <span class="menu-title">Feedback</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/user/load_edit_profile">
+                <i class="mdi mdi-account-edit menu-icon"></i>
+                <span class="menu-title">Edit Profile</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/logout_session">
+                <i class="mdi mdi-logout menu-icon"></i>
+                <span class="menu-title">Logout</span>
+            </a>
+        </li>
+
+    </ul>
+</nav>

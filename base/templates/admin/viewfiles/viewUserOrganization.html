@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>User-INFO</title>    <!-- base:css -->
+    <!-- base:css -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../../static/adminResources/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../../static/adminResources/image/favicon.ico"/>
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+
+
+    {% include 'files/header.html' %}
+
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+
+        {% include 'admin/menu.html' %}
+
+
+        <!-- partial -->
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">View user</h4>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table-responsive">
+                                    <table id="order-listing" class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Ownername</th>
+                                            <th>Organization Name</th>
+                                            <th>Contact</th>
+                                            <th>Username</th>
+                                            <th>State</th>
+                                            <th>City</th>
+                                            <th>Area</th>
+                                            <th>Address</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for row in user_list %}
+                                            <tr>
+                                                <td>{{ row[0].user_fullname }}</td>
+                                                <td>{{ row[0].user_organization_name }}</td>
+                                                <td>{{ row[0].user_contact }}</td>
+                                                <td>{{ row[4].login_username }}</td>
+                                                <td>{{ row[1].state_name }}</td>
+                                                <td>{{ row[2].city_name }}</td>
+                                                <td>{{ row[3].area_name }}</td>
+                                                <td>{{ row[0].user_address }}</td>
+                                                <td>
+                                                    {% if row[4].login_status=='active' %}
+                                                        <a href="/admin/user_block_unblock?loginId={{ row[4].login_id }}">
+                                                            <button class="btn btn-outline-primary">Block</button>
+                                                        </a>
+                                                    {% else %}
+                                                        <a href="/admin/user_block_unblock?loginId={{ row[4].login_id }}">
+                                                            <button class="btn btn-outline-primary">Unblock</button>
+                                                        </a>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+
+            {% include 'files/footer.html' %}
+
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="../../../static/adminResources/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="../../../static/adminResources/js/off-canvas.js"></script>
+<script src="../../../static/adminResources/js/hoverable-collapse.js"></script>
+<script src="../../../static/adminResources/js/template.js"></script>
+<script src="../../../static/adminResources/js/settings.js"></script>
+<script src="../../../static/adminResources/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="../../../static/adminResources/js/jquery.dataTables.js"></script>
+<script src="../../../static/adminResources/js/dataTables.bootstrap4.js"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="../../../static/adminResources/js/data-table.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>

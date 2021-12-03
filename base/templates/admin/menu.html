@@ -1,0 +1,103 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/load_dashboard">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Home</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/view_user_organization">
+                <i class="mdi mdi-account-multiple menu-icon"></i>
+                <span class="menu-title">Manage User</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#state" aria-expanded="false" aria-controls="state">
+                <i class="mdi mdi-map-outline menu-icon"></i>
+                <span class="menu-title">Manage State</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="state">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/admin/load_state">Add State</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/admin/view_state">View State</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#city" aria-expanded="false" aria-controls="city">
+                <i class="mdi mdi-city menu-icon"></i>
+                <span class="menu-title">Manage City</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="city">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/admin/load_city">Add City</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/admin/view_city">View City</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#area" aria-expanded="false" aria-controls="area">
+                <i class="mdi mdi-map-marker-radius menu-icon"></i>
+                <span class="menu-title">Manage Area</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="area">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/admin/load_area">Add Area</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/admin/view_area">View Area</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#dataset" aria-expanded="false" aria-controls="dataset">
+                <i class="mdi mdi-database menu-icon"></i>
+                <span class="menu-title">Manage Dataset</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="dataset">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"><a class="nav-link" href="/admin/load_dataset">Add Dataset</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/admin/view_dataset">View Dataset</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/view_prediction">
+                <i class="mdi mdi-chart-donut menu-icon"></i>
+                <span class="menu-title">Manage Prediction</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/view_complaint">
+                <i class="mdi mdi-comment-multiple-outline menu-icon"></i>
+                <span class="menu-title">Manage Complaints</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/view_feedback">
+                <i class="mdi mdi-thumb-up menu-icon"></i>
+                <span class="menu-title">Manage Feedback</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="/logout_session">
+                <i class="mdi mdi-logout menu-icon"></i>
+                <span class="menu-title">Logout</span>
+            </a>
+        </li>
+
+    </ul>
+</nav>

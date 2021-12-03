@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Perform Prediction</title>    <!-- base:css -->
+    <!-- base:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../static/adminResources/css/vendor.bundle.base.css">
+    <link rel="stylesheet" type="text/css" href="../../static/adminResources/css/star.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../../static/adminResources/image/favicon.ico"/>
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    {% include 'files/header.html' %}
+
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+
+        {% include 'user/menu.html' %}
+
+
+        <!-- partial -->
+        <div class="main-panel">
+
+            <!-- content-wrapper ends -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form class="forms-sample" method="post" action="/user/perform_prediction">
+
+                                        <div class="form-group">
+
+                                            <div class="form-group">
+                                                <select name="stock_type" class="form-control"
+                                                        id="stock_type">
+                                                    <option disabled selected>Select Stock Type</option>
+                                                    {% for i,j in stock_type_dic.items() %}
+                                                        <option value="{{ i }}">{{ i }}</option>
+                                                    {% endfor %}
+                                                </select>
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <select name="season_purchase_season" class="form-control"
+                                                        id="season_purchase_season">
+                                                    <option disabled selected>Select Stock Purchase Season</option>
+                                                    <option value="1">Summer</option>
+                                                    <option value="2">Winter</option>
+                                                    <option value="3">Monsoon</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <select name="stock_sell_season" class="form-control"
+                                                        id="stock_sell_season">
+                                                    <option disabled selected>Select Stock Sell Season</option>
+                                                    <option value="1">Summer</option>
+                                                    <option value="2">Winter</option>
+                                                    <option value="3">Monsoon</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <select name="stock_purchase_month" class="form-control"
+                                                        id="stock_purchase_month">
+                                                    <option disabled selected>Select Stock Purchased Month</option>
+                                                    <option value="1">January</option>
+                                                    <option value="2">February</option>
+                                                    <option value="3">March</option>
+                                                    <option value="4">April</option>
+                                                    <option value="5">May</option>
+                                                    <option value="6">June</option>
+                                                    <option value="7">July</option>
+                                                    <option value="8">August</option>
+                                                    <option value="9">September</option>
+                                                    <option value="10">Octomber</option>
+                                                    <option value="11">November</option>
+                                                    <option value="12">December</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Number Of Stock Going To
+                                                    Purchased</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       name="no_stock_purchased">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Sell Duration Month</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       name="stock_sell_duration_month">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Prediction For Year</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       name="year">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <select name="#" class="form-control"
+                                                        id="stock_purchase_month">
+                                                    <option disabled selected>Select Sale Month Period</option>
+                                                    <option value="1">January</option>
+                                                    <option value="2">February</option>
+                                                    <option value="3">March</option>
+                                                    <option value="4">April</option>
+                                                    <option value="5">May</option>
+                                                    <option value="6">June</option>
+                                                    <option value="7">July</option>
+                                                    <option value="8">August</option>
+                                                    <option value="9">September</option>
+                                                    <option value="10">Octomber</option>
+                                                    <option value="11">November</option>
+                                                    <option value="12">December</option>
+                                                </select>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                            <button class="btn btn-light">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial:../../partials/_footer.html -->
+
+            {% include 'files/footer.html' %}
+
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="../../static/adminResources/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="../../static/adminResources/js/off-canvas.js"></script>
+<script src="../../static/adminResources/js/hoverable-collapse.js"></script>
+<script src="../../static/adminResources/js/template.js"></script>
+<script src="../../static/adminResources/js/settings.js"></script>
+<script src="../../static/adminResources/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="../../static/adminResources/js/jquery.validate.min.js"></script>
+<script src="../../static/adminResources/js/bootstrap-maxlength.min.js"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="../../static/adminResources/js/form-validation.js"></script>
+<script src="../../static/adminResources/js/bt-maxLength.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>

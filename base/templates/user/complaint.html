@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Complaint</title>    <!-- base:css -->
+    <!-- base:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../static/adminResources/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/style.css"><!-- endinject -->
+    <link rel="shortcut icon" href="../../../static/adminResources/image/favicon.ico"/>
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+
+
+    {% include 'files/header.html' %}
+
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+
+        {% include 'user/menu.html' %}
+
+        <!-- partial -->
+        <div class="main-panel">
+
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Compaint Form</h4>
+                                <form class="cmxform" method="post" action="/user/post_complaint">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <label for="complaintsubject">Complaint Subject</label>
+                                            <input required id="complaintsubject" class="form-control"
+                                                   name="complaintSubject"
+                                                   type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="complaintdescription">Complaint Description</label>
+                                            <textarea id="compliantdescription" class="form-control" rows="4"
+                                                      name="complaintDescription"
+                                                      type=""></textarea>
+                                        </div>
+                                        <input class="btn btn-primary" type="submit" value="Submit">
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            {% if complaints %}
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Basic Forms -->
+                            <div class="box">
+                                <!-- /.box-header -->
+                                <div class="box-header"
+                                     style="background-image: linear-gradient(90deg, #7571f9, transparent);">
+                                    <h4 style="padding-top: 20px;padding-bottom: 20px;padding-left: 15px;color: white"
+                                        class="m-0">View
+                                        Complaint</h4>
+                                </div>
+
+                                <div class="box-body">
+
+                                    {% for complaint in complaints %}
+                                        <div style="padding: 20px 0px 20px 15px">
+                                            <div class="user-block">
+                                                <img class="img-bordered-sm rounded-circle"
+                                                     src="../../static/adminResources/image/user.png"
+                                                     alt="user image">
+                                                <span class="username">
+                                        <span>{{ complaint[1].login_username }}</span>
+                                        <span class="pull-right btn-box-tool">{{ complaint[0].complaint_datetime }}</span>
+							        </span>
+                                                <span class="description">{{ complaint[0].complaint_subject }}</span>
+
+                                            </div>
+                                            <!-- /.user-block -->
+                                            <div class="activitytimeline">
+                                                <p>
+                                                    {{ complaint[0].complaint_description }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        {% if complaint[0].complaint_status=='replied' %}
+                                            <div class="post" style="margin-left: 250px">
+                                                <div class="user-block">
+                                                    <img class="img-bordered-sm rounded-circle"
+                                                         src="../../static/adminResources/image/admin.png"
+                                                         alt="user image">
+                                                    <span class="username">
+                                        <span>{{ admin_username }}</span>
+                                        <span class="pull-right btn-box-tool">{{ complaint[0].complaint_reply_datetime }}</span>
+							        </span>
+                                                    <span class="description"></span>
+                                                </div>
+                                                <!-- /.user-block -->
+                                                <div class="activitytimeline">
+                                                    <p>
+                                                        {{ complaint[0].complaint_reply_description }}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.box-body -->
+                            </div>
+                            <!-- /.box -->
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Basic Forms -->
+                            <div class="box">
+                                <!-- /.box-header -->
+                                <div class="box-header"
+                                     style="background-image: linear-gradient(90deg, #7571f9, transparent);">
+                                    <h4 style="padding-top: 20px;padding-bottom: 20px;padding-left: 15px;color: white"
+                                        class="m-0">View
+                                        Complaint</h4>
+                                </div>
+
+                                <div class="box-body">
+                                    <h2 style="padding-left: 40%">No Complaints!!!</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+            {% include 'files/footer.html' %}
+        </div>
+    </div>
+    <!-- content-wrapper ends -->
+    <!-- partial:../../partials/_footer.html -->
+    <!-- partial -->
+</div>
+
+<!-- main-panel ends -->
+<!-- page-body-wrapper ends -->
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="../../static/adminResources/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="../../static/adminResources/js/off-canvas.js"></script>
+<script src="../../static/adminResources/js/hoverable-collapse.js"></script>
+<script src="../../static/adminResources/js/template.js"></script>
+<script src="../../static/adminResources/js/settings.js"></script>
+<script src="../../static/adminResources/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="../../static/adminResources/js/jquery.validate.min.js"></script>
+<script src="../../static/adminResources/js/bootstrap-maxlength.min.js"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="../../static/adminResources/js/form-validation.js"></script>
+<script src="../../static/adminResources/js/bt-maxLength.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>
+

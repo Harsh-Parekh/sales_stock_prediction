@@ -1,0 +1,1001 @@
+col,Stock_Type,Stock_Type,Stock_Purchase_Season,Stock_Purchase_Season,Stock_Sell_Season,Stock_Sell_Season,Stock_Purchased_Month,Stock_Purchased_Month
+0,Pain Relievers,34,Winter,2,Winter,2,February,3
+1,Hair Oil,20,Winter,2,Winter,2,December,2
+2,Noodles,33,Winter,2,Winter,2,March,7
+3,Cartidges,6,Winter,2,Summer,1,February,3
+4,Soft Drink,42,Summer,1,Summer,1,June,6
+5,Razors,39,Monsoon,0,Winter,2,September,11
+6,Women Trouser,51,Summer,1,Summer,1,April,0
+7,Dishwashes,13,Summer,1,Summer,1,May,8
+8,Sanitary Care,40,Summer,1,Summer,1,April,0
+9,Pasta,35,Summer,1,Summer,1,April,0
+10,Canned Foods,5,Winter,2,Summer,1,January,4
+11,Coffee,11,Monsoon,0,Monsoon,0,October,10
+12,Men Jeans,25,Monsoon,0,Winter,2,October,10
+13,Women Trouser,51,Summer,1,Summer,1,June,6
+14,Energy Drink,15,Monsoon,0,Monsoon,0,September,11
+15,Men's Deo,29,Winter,2,Winter,2,December,2
+16,Pooja Needs,38,Summer,1,Summer,1,June,6
+17,Pain Relievers,34,Winter,2,Summer,1,February,3
+18,Cartidges,6,Winter,2,Winter,2,January,4
+19,Men Jeans,25,Winter,2,Winter,2,February,3
+20,ToothPaste,47,Winter,2,Winter,2,February,3
+21,Cleaners,10,Monsoon,0,Winter,2,September,11
+22,Ketchups,22,Winter,2,Summer,1,March,7
+23,Girls Shirt,19,Summer,1,Monsoon,0,May,8
+24,Men Shirt,26,Monsoon,0,Monsoon,0,November,9
+25,Pooja Needs,38,Monsoon,0,Winter,2,August,1
+26,Tissues & Disposables,45,Winter,2,Winter,2,December,2
+27,Milk Drink,30,Monsoon,0,Monsoon,0,September,11
+28,Tea,44,Winter,2,Summer,1,March,7
+29,Energy Drink,15,Winter,2,Winter,2,December,2
+30,Dishwashes,13,Summer,1,Summer,1,May,8
+31,Tissues & Disposables,45,Winter,2,Winter,2,January,4
+32,Pasta,35,Winter,2,Winter,2,February,3
+33,Breads Grains,3,Winter,2,Winter,2,January,4
+34,Canned Foods,5,Summer,1,Summer,1,May,8
+35,Cartidges,6,Monsoon,0,Winter,2,November,9
+36,Coffee,11,Summer,1,Summer,1,May,8
+37,Dog Supplies,14,Winter,2,Winter,2,January,4
+38,Biscuits,0,Monsoon,0,Monsoon,0,August,1
+39,Canned Foods,5,Monsoon,0,Monsoon,0,September,11
+40,Noodles,33,Monsoon,0,Monsoon,0,August,1
+41,ToothBrush,46,Monsoon,0,Monsoon,0,October,10
+42,Women Trouser,51,Winter,2,Summer,1,March,7
+43,Cleaners,10,Summer,1,Monsoon,0,April,0
+44,Conditioner,12,Summer,1,Monsoon,0,June,6
+45,Ketchups,22,Summer,1,Summer,1,May,8
+46,Women Shirt,49,Monsoon,0,Monsoon,0,September,11
+47,Men's Deo,29,Winter,2,Summer,1,March,7
+48,Soft Drink,42,Summer,1,Summer,1,April,0
+49,Energy Drink,15,Monsoon,0,Winter,2,November,9
+50,Hair Oil,20,Monsoon,0,Monsoon,0,August,1
+51,Pickels,37,Monsoon,0,Winter,2,September,11
+52,Women T-Shirt,50,Winter,2,Winter,2,March,7
+53,Biscuits,0,Summer,1,Monsoon,0,June,6
+54,Lip Care,24,Summer,1,Monsoon,0,July,5
+55,Candy,4,Winter,2,Summer,1,December,2
+56,Conditioner,12,Summer,1,Summer,1,April,0
+57,Soft Drink,42,Winter,2,Summer,1,January,4
+58,Dishwashes,13,Monsoon,0,Winter,2,October,10
+59,Shampoo,41,Monsoon,0,Winter,2,August,1
+60,Hair Oil,20,Summer,1,Summer,1,July,5
+61,Men's Deo,29,Monsoon,0,Winter,2,November,9
+62,Razors,39,Winter,2,Summer,1,January,4
+63,Pasta,35,Winter,2,Winter,2,February,3
+64,Sweets,43,Winter,2,Summer,1,January,4
+65,Sanitary Care,40,Summer,1,Monsoon,0,April,0
+66,Razors,39,Summer,1,Monsoon,0,June,6
+67,ToothPaste,47,Summer,1,Summer,1,April,0
+68,Perfumes,36,Monsoon,0,Monsoon,0,October,10
+69,Pasta,35,Monsoon,0,Monsoon,0,October,10
+70,Chips,8,Summer,1,Summer,1,June,6
+71,Women's Deo,52,Monsoon,0,Winter,2,August,1
+72,Dog Supplies,14,Winter,2,Winter,2,February,3
+73,Pain Relievers,34,Summer,1,Monsoon,0,April,0
+74,Canned Foods,5,Monsoon,0,Monsoon,0,November,9
+75,Women Trouser,51,Winter,2,Winter,2,February,3
+76,Laundry Detergents,23,Winter,2,Winter,2,February,3
+77,Frozen Foods,18,Winter,2,Winter,2,January,4
+78,Face Wash,17,Summer,1,Summer,1,May,8
+79,Milk Drink,30,Summer,1,Summer,1,May,8
+80,Boys Shirt,2,Winter,2,Summer,1,January,4
+81,Namkeen,32,Monsoon,0,Monsoon,0,November,9
+82,Chips,8,Summer,1,Summer,1,May,8
+83,Men Trouser,28,Monsoon,0,Winter,2,August,1
+84,Soft Drink,42,Summer,1,Monsoon,0,May,8
+85,Face Cream,16,Summer,1,Monsoon,0,April,0
+86,Men Shirt,26,Winter,2,Winter,2,January,4
+87,Ketchups,22,Summer,1,Summer,1,June,6
+88,Women Jeans,48,Winter,2,Summer,1,January,4
+89,Men Trouser,28,Summer,1,Summer,1,June,6
+90,ToothBrush,46,Summer,1,Summer,1,July,5
+91,Lip Care,24,Winter,2,Winter,2,March,7
+92,Body Lotion,1,Monsoon,0,Winter,2,August,1
+93,Chips,8,Summer,1,Monsoon,0,April,0
+94,Hair Oil,20,Summer,1,Monsoon,0,April,0
+95,Men Shirt,26,Summer,1,Summer,1,May,8
+96,Cartidges,6,Monsoon,0,Monsoon,0,September,11
+97,Tea,44,Monsoon,0,Monsoon,0,November,9
+98,Body Lotion,1,Winter,2,Summer,1,December,2
+99,Hair Oil,20,Winter,2,Winter,2,March,7
+100,Body Lotion,1,Winter,2,Summer,1,December,2
+101,Tea,44,Monsoon,0,Monsoon,0,September,11
+102,Noodles,33,Monsoon,0,Winter,2,August,1
+103,Energy Drink,15,Summer,1,Summer,1,May,8
+104,Men T-Shirt,27,Monsoon,0,Winter,2,August,1
+105,Pickels,37,Summer,1,Summer,1,May,8
+106,Pooja Needs,38,Summer,1,Monsoon,0,May,8
+107,Lip Care,24,Summer,1,Summer,1,June,6
+108,Noodles,33,Monsoon,0,Winter,2,October,10
+109,Perfumes,36,Monsoon,0,Winter,2,October,10
+110,Women T-Shirt,50,Summer,1,Summer,1,June,6
+111,Body Lotion,1,Winter,2,Summer,1,March,7
+112,Cartidges,6,Summer,1,Monsoon,0,June,6
+113,Shampoo,41,Summer,1,Summer,1,June,6
+114,Ketchups,22,Winter,2,Winter,2,February,3
+115,Energy Drink,15,Winter,2,Summer,1,December,2
+116,Pickels,37,Winter,2,Winter,2,December,2
+117,Women Shirt,49,Summer,1,Monsoon,0,June,6
+118,Soft Drink,42,Winter,2,Winter,2,January,4
+119,Body Lotion,1,Monsoon,0,Winter,2,September,11
+120,Conditioner,12,Summer,1,Summer,1,May,8
+121,Tea,44,Summer,1,Summer,1,July,5
+122,Women Shirt,49,Monsoon,0,Monsoon,0,November,9
+123,Sweets,43,Winter,2,Summer,1,March,7
+124,ToothBrush,46,Monsoon,0,Monsoon,0,November,9
+125,MouthWash,31,Winter,2,Winter,2,March,7
+126,Dog Supplies,14,Monsoon,0,Winter,2,September,11
+127,Dog Supplies,14,Summer,1,Monsoon,0,May,8
+128,MouthWash,31,Summer,1,Monsoon,0,June,6
+129,MouthWash,31,Summer,1,Summer,1,June,6
+130,Pain Relievers,34,Summer,1,Summer,1,June,6
+131,Conditioner,12,Monsoon,0,Monsoon,0,August,1
+132,Soft Drink,42,Summer,1,Summer,1,April,0
+133,Chocklate,9,Summer,1,Summer,1,July,5
+134,Conditioner,12,Winter,2,Winter,2,March,7
+135,Pooja Needs,38,Monsoon,0,Monsoon,0,November,9
+136,Men Jeans,25,Summer,1,Monsoon,0,June,6
+137,ToothBrush,46,Winter,2,Winter,2,December,2
+138,Coffee,11,Summer,1,Monsoon,0,June,6
+139,ToothBrush,46,Winter,2,Summer,1,January,4
+140,Breads Grains,3,Monsoon,0,Winter,2,November,9
+141,Girls Shirt,19,Winter,2,Winter,2,March,7
+142,Women T-Shirt,50,Monsoon,0,Monsoon,0,August,1
+143,Women's Deo,52,Monsoon,0,Monsoon,0,August,1
+144,Women's Deo,52,Winter,2,Winter,2,January,4
+145,Biscuits,0,Winter,2,Winter,2,January,4
+146,ToothPaste,47,Winter,2,Summer,1,December,2
+147,Perfumes,36,Monsoon,0,Monsoon,0,September,11
+148,Energy Drink,15,Summer,1,Monsoon,0,May,8
+149,Canned Foods,5,Monsoon,0,Winter,2,August,1
+150,Pickels,37,Winter,2,Winter,2,December,2
+151,Sweets,43,Winter,2,Winter,2,February,3
+152,Hair Oil,20,Winter,2,Winter,2,January,4
+153,Biscuits,0,Summer,1,Monsoon,0,April,0
+154,Shampoo,41,Monsoon,0,Monsoon,0,August,1
+155,Pickels,37,Summer,1,Summer,1,April,0
+156,Dog Supplies,14,Monsoon,0,Monsoon,0,October,10
+157,Razors,39,Monsoon,0,Monsoon,0,September,11
+158,Pasta,35,Monsoon,0,Monsoon,0,October,10
+159,ToothPaste,47,Monsoon,0,Winter,2,October,10
+160,Sweets,43,Monsoon,0,Monsoon,0,October,10
+161,Face Wash,17,Summer,1,Monsoon,0,June,6
+162,Ketchups,22,Winter,2,Winter,2,March,7
+163,Conditioner,12,Summer,1,Summer,1,May,8
+164,Coffee,11,Winter,2,Winter,2,January,4
+165,Men Trouser,28,Winter,2,Summer,1,December,2
+166,Sanitary Care,40,Monsoon,0,Monsoon,0,November,9
+167,Shampoo,41,Winter,2,Winter,2,February,3
+168,Namkeen,32,Winter,2,Winter,2,January,4
+169,Boys Shirt,2,Summer,1,Summer,1,April,0
+170,Men Trouser,28,Winter,2,Summer,1,January,4
+171,Pickels,37,Summer,1,Summer,1,April,0
+172,Coffee,11,Summer,1,Summer,1,May,8
+173,Pain Relievers,34,Winter,2,Winter,2,February,3
+174,Pain Relievers,34,Monsoon,0,Monsoon,0,October,10
+175,Cleaners,10,Winter,2,Summer,1,February,3
+176,Dishwashes,13,Winter,2,Summer,1,January,4
+177,Sweets,43,Winter,2,Summer,1,January,4
+178,ToothBrush,46,Monsoon,0,Winter,2,August,1
+179,Sanitary Care,40,Summer,1,Summer,1,June,6
+180,Women Jeans,48,Winter,2,Winter,2,March,7
+181,Cat Supplies,7,Summer,1,Monsoon,0,June,6
+182,Tissues & Disposables,45,Monsoon,0,Winter,2,October,10
+183,Men Shirt,26,Monsoon,0,Monsoon,0,August,1
+184,Chips,8,Summer,1,Monsoon,0,April,0
+185,Noodles,33,Summer,1,Summer,1,May,8
+186,Coffee,11,Monsoon,0,Monsoon,0,October,10
+187,Razors,39,Summer,1,Summer,1,June,6
+188,Perfumes,36,Summer,1,Summer,1,June,6
+189,Face Wash,17,Winter,2,Winter,2,February,3
+190,Dishwashes,13,Winter,2,Summer,1,March,7
+191,Women Shirt,49,Summer,1,Monsoon,0,June,6
+192,Dog Supplies,14,Summer,1,Summer,1,April,0
+193,Women Shirt,49,Winter,2,Winter,2,January,4
+194,Energy Drink,15,Summer,1,Monsoon,0,June,6
+195,Cat Supplies,7,Winter,2,Winter,2,December,2
+196,Body Lotion,1,Summer,1,Summer,1,April,0
+197,Boys Shirt,2,Winter,2,Winter,2,February,3
+198,Lip Care,24,Summer,1,Summer,1,May,8
+199,Canned Foods,5,Winter,2,Summer,1,March,7
+200,Dog Supplies,14,Summer,1,Monsoon,0,April,0
+201,Sweets,43,Summer,1,Summer,1,April,0
+202,Men Trouser,28,Monsoon,0,Monsoon,0,October,10
+203,Women Shirt,49,Monsoon,0,Monsoon,0,August,1
+204,MouthWash,31,Winter,2,Winter,2,February,3
+205,Sanitary Care,40,Summer,1,Monsoon,0,June,6
+206,Women Trouser,51,Summer,1,Summer,1,April,0
+207,Shampoo,41,Summer,1,Summer,1,July,5
+208,Men's Deo,29,Summer,1,Summer,1,June,6
+209,Girls Shirt,19,Monsoon,0,Winter,2,November,9
+210,Candy,4,Summer,1,Summer,1,May,8
+211,Cat Supplies,7,Summer,1,Summer,1,July,5
+212,Chocklate,9,Monsoon,0,Monsoon,0,October,10
+213,Women Trouser,51,Monsoon,0,Monsoon,0,September,11
+214,Men Trouser,28,Winter,2,Summer,1,February,3
+215,Milk Drink,30,Winter,2,Winter,2,December,2
+216,Face Wash,17,Monsoon,0,Monsoon,0,November,9
+217,Hand Wash,21,Monsoon,0,Monsoon,0,October,10
+218,Laundry Detergents,23,Summer,1,Monsoon,0,June,6
+219,Razors,39,Monsoon,0,Winter,2,October,10
+220,Soft Drink,42,Monsoon,0,Monsoon,0,September,11
+221,Breads Grains,3,Monsoon,0,Monsoon,0,October,10
+222,Ketchups,22,Summer,1,Summer,1,April,0
+223,Coffee,11,Monsoon,0,Winter,2,August,1
+224,Face Cream,16,Summer,1,Monsoon,0,April,0
+225,Soft Drink,42,Summer,1,Monsoon,0,July,5
+226,Chips,8,Summer,1,Summer,1,May,8
+227,Sweets,43,Winter,2,Winter,2,February,3
+228,Laundry Detergents,23,Winter,2,Winter,2,December,2
+229,Cat Supplies,7,Summer,1,Summer,1,April,0
+230,Tea,44,Summer,1,Monsoon,0,May,8
+231,Sweets,43,Summer,1,Monsoon,0,June,6
+232,Dishwashes,13,Summer,1,Monsoon,0,May,8
+233,Sweets,43,Monsoon,0,Winter,2,September,11
+234,Breads Grains,3,Winter,2,Summer,1,January,4
+235,Men Shirt,26,Winter,2,Winter,2,February,3
+236,Men T-Shirt,27,Monsoon,0,Winter,2,October,10
+237,Women's Deo,52,Monsoon,0,Monsoon,0,August,1
+238,Body Lotion,1,Summer,1,Monsoon,0,April,0
+239,Milk Drink,30,Winter,2,Winter,2,March,7
+240,Milk Drink,30,Winter,2,Summer,1,March,7
+241,Women Shirt,49,Winter,2,Winter,2,December,2
+242,Tissues & Disposables,45,Winter,2,Winter,2,January,4
+243,Face Wash,17,Monsoon,0,Monsoon,0,August,1
+244,Body Lotion,1,Winter,2,Winter,2,March,7
+245,Body Lotion,1,Winter,2,Summer,1,March,7
+246,Hair Oil,20,Summer,1,Monsoon,0,April,0
+247,Shampoo,41,Monsoon,0,Monsoon,0,November,9
+248,Men Trouser,28,Summer,1,Summer,1,April,0
+249,Women's Deo,52,Winter,2,Summer,1,January,4
+250,Coffee,11,Winter,2,Summer,1,February,3
+251,Pickels,37,Summer,1,Summer,1,July,5
+252,ToothBrush,46,Summer,1,Monsoon,0,May,8
+253,Pooja Needs,38,Summer,1,Monsoon,0,April,0
+254,Noodles,33,Monsoon,0,Winter,2,October,10
+255,Face Cream,16,Monsoon,0,Monsoon,0,August,1
+256,Breads Grains,3,Monsoon,0,Winter,2,November,9
+257,Conditioner,12,Monsoon,0,Monsoon,0,November,9
+258,Tea,44,Monsoon,0,Monsoon,0,October,10
+259,Namkeen,32,Monsoon,0,Monsoon,0,September,11
+260,Cleaners,10,Summer,1,Monsoon,0,April,0
+261,Candy,4,Winter,2,Summer,1,December,2
+262,Men Jeans,25,Winter,2,Winter,2,December,2
+263,Lip Care,24,Summer,1,Monsoon,0,May,8
+264,Energy Drink,15,Winter,2,Winter,2,January,4
+265,Pain Relievers,34,Winter,2,Winter,2,December,2
+266,Face Cream,16,Monsoon,0,Winter,2,October,10
+267,Sanitary Care,40,Summer,1,Summer,1,June,6
+268,ToothPaste,47,Winter,2,Winter,2,February,3
+269,Sanitary Care,40,Monsoon,0,Winter,2,August,1
+270,Chocklate,9,Summer,1,Summer,1,April,0
+271,Energy Drink,15,Summer,1,Monsoon,0,May,8
+272,Face Wash,17,Summer,1,Summer,1,May,8
+273,Frozen Foods,18,Monsoon,0,Winter,2,November,9
+274,Biscuits,0,Monsoon,0,Winter,2,September,11
+275,Soft Drink,42,Summer,1,Monsoon,0,July,5
+276,MouthWash,31,Winter,2,Winter,2,February,3
+277,Tea,44,Summer,1,Monsoon,0,June,6
+278,Cleaners,10,Monsoon,0,Monsoon,0,October,10
+279,Lip Care,24,Monsoon,0,Monsoon,0,August,1
+280,Tea,44,Winter,2,Winter,2,December,2
+281,Coffee,11,Monsoon,0,Monsoon,0,August,1
+282,Candy,4,Monsoon,0,Monsoon,0,August,1
+283,Shampoo,41,Monsoon,0,Monsoon,0,October,10
+284,Frozen Foods,18,Summer,1,Monsoon,0,July,5
+285,Chips,8,Summer,1,Monsoon,0,June,6
+286,ToothPaste,47,Summer,1,Monsoon,0,April,0
+287,Women T-Shirt,50,Monsoon,0,Monsoon,0,August,1
+288,Soft Drink,42,Monsoon,0,Monsoon,0,September,11
+289,Men T-Shirt,27,Summer,1,Monsoon,0,April,0
+290,Razors,39,Summer,1,Monsoon,0,July,5
+291,Hair Oil,20,Monsoon,0,Monsoon,0,November,9
+292,Candy,4,Monsoon,0,Monsoon,0,October,10
+293,Men Trouser,28,Monsoon,0,Winter,2,September,11
+294,Face Cream,16,Summer,1,Summer,1,July,5
+295,Chips,8,Winter,2,Summer,1,March,7
+296,ToothPaste,47,Winter,2,Summer,1,December,2
+297,Men's Deo,29,Monsoon,0,Monsoon,0,September,11
+298,Dog Supplies,14,Summer,1,Summer,1,April,0
+299,Men Trouser,28,Monsoon,0,Monsoon,0,November,9
+300,Girls Shirt,19,Summer,1,Monsoon,0,April,0
+301,Tissues & Disposables,45,Monsoon,0,Monsoon,0,October,10
+302,Sweets,43,Summer,1,Monsoon,0,July,5
+303,Men Shirt,26,Winter,2,Winter,2,February,3
+304,Namkeen,32,Winter,2,Summer,1,February,3
+305,Soft Drink,42,Winter,2,Summer,1,March,7
+306,Ketchups,22,Summer,1,Summer,1,June,6
+307,MouthWash,31,Summer,1,Monsoon,0,June,6
+308,Pain Relievers,34,Summer,1,Summer,1,May,8
+309,Dishwashes,13,Monsoon,0,Monsoon,0,September,11
+310,Namkeen,32,Winter,2,Winter,2,December,2
+311,Canned Foods,5,Monsoon,0,Winter,2,August,1
+312,Men T-Shirt,27,Winter,2,Winter,2,December,2
+313,ToothPaste,47,Winter,2,Winter,2,February,3
+314,ToothPaste,47,Monsoon,0,Monsoon,0,October,10
+315,Cat Supplies,7,Summer,1,Summer,1,May,8
+316,Women's Deo,52,Summer,1,Monsoon,0,April,0
+317,ToothBrush,46,Summer,1,Monsoon,0,April,0
+318,ToothPaste,47,Monsoon,0,Winter,2,August,1
+319,Pooja Needs,38,Monsoon,0,Winter,2,November,9
+320,Hand Wash,21,Winter,2,Summer,1,December,2
+321,Men Jeans,25,Monsoon,0,Monsoon,0,August,1
+322,Face Wash,17,Winter,2,Winter,2,March,7
+323,Pooja Needs,38,Summer,1,Monsoon,0,May,8
+324,Pain Relievers,34,Monsoon,0,Monsoon,0,September,11
+325,Cartidges,6,Winter,2,Summer,1,February,3
+326,Tissues & Disposables,45,Summer,1,Monsoon,0,June,6
+327,Women Jeans,48,Monsoon,0,Winter,2,October,10
+328,Milk Drink,30,Monsoon,0,Winter,2,August,1
+329,Tea,44,Summer,1,Summer,1,April,0
+330,Tea,44,Winter,2,Summer,1,December,2
+331,Women Shirt,49,Summer,1,Summer,1,June,6
+332,Noodles,33,Winter,2,Winter,2,December,2
+333,Dishwashes,13,Monsoon,0,Monsoon,0,November,9
+334,Men Trouser,28,Summer,1,Monsoon,0,May,8
+335,Candy,4,Summer,1,Summer,1,May,8
+336,Sanitary Care,40,Summer,1,Summer,1,June,6
+337,Women's Deo,52,Winter,2,Summer,1,December,2
+338,Conditioner,12,Summer,1,Summer,1,June,6
+339,Men Trouser,28,Winter,2,Winter,2,January,4
+340,Men Jeans,25,Monsoon,0,Monsoon,0,August,1
+341,Cleaners,10,Monsoon,0,Monsoon,0,October,10
+342,Hand Wash,21,Summer,1,Monsoon,0,May,8
+343,Men Shirt,26,Summer,1,Monsoon,0,May,8
+344,Face Cream,16,Monsoon,0,Monsoon,0,November,9
+345,Hair Oil,20,Summer,1,Monsoon,0,July,5
+346,Soft Drink,42,Summer,1,Summer,1,May,8
+347,Girls Shirt,19,Winter,2,Summer,1,March,7
+348,Chocklate,9,Winter,2,Summer,1,January,4
+349,Cat Supplies,7,Monsoon,0,Monsoon,0,October,10
+350,Perfumes,36,Summer,1,Summer,1,June,6
+351,MouthWash,31,Summer,1,Monsoon,0,June,6
+352,Conditioner,12,Winter,2,Summer,1,March,7
+353,Energy Drink,15,Monsoon,0,Monsoon,0,October,10
+354,Shampoo,41,Monsoon,0,Monsoon,0,October,10
+355,Men's Deo,29,Monsoon,0,Winter,2,November,9
+356,Coffee,11,Summer,1,Summer,1,June,6
+357,Biscuits,0,Summer,1,Monsoon,0,July,5
+358,Milk Drink,30,Monsoon,0,Winter,2,October,10
+359,Namkeen,32,Summer,1,Monsoon,0,June,6
+360,Frozen Foods,18,Summer,1,Monsoon,0,June,6
+361,Noodles,33,Monsoon,0,Monsoon,0,September,11
+362,Women's Deo,52,Winter,2,Winter,2,January,4
+363,Perfumes,36,Winter,2,Winter,2,February,3
+364,Namkeen,32,Monsoon,0,Monsoon,0,October,10
+365,Laundry Detergents,23,Winter,2,Winter,2,January,4
+366,Pooja Needs,38,Winter,2,Winter,2,March,7
+367,Hand Wash,21,Monsoon,0,Winter,2,September,11
+368,Canned Foods,5,Monsoon,0,Monsoon,0,August,1
+369,Ketchups,22,Summer,1,Monsoon,0,April,0
+370,Pooja Needs,38,Monsoon,0,Winter,2,September,11
+371,Coffee,11,Summer,1,Monsoon,0,April,0
+372,Women Shirt,49,Monsoon,0,Monsoon,0,October,10
+373,ToothBrush,46,Summer,1,Monsoon,0,July,5
+374,Dishwashes,13,Summer,1,Summer,1,April,0
+375,Cleaners,10,Monsoon,0,Winter,2,November,9
+376,Cartidges,6,Winter,2,Summer,1,March,7
+377,Men T-Shirt,27,Summer,1,Summer,1,July,5
+378,Pasta,35,Summer,1,Monsoon,0,June,6
+379,Conditioner,12,Summer,1,Summer,1,July,5
+380,Hand Wash,21,Summer,1,Summer,1,April,0
+381,Razors,39,Summer,1,Summer,1,July,5
+382,Cartidges,6,Winter,2,Winter,2,February,3
+383,Hair Oil,20,Summer,1,Monsoon,0,June,6
+384,Cartidges,6,Monsoon,0,Winter,2,August,1
+385,Face Cream,16,Summer,1,Monsoon,0,July,5
+386,Boys Shirt,2,Monsoon,0,Monsoon,0,November,9
+387,Hair Oil,20,Monsoon,0,Monsoon,0,August,1
+388,Laundry Detergents,23,Monsoon,0,Winter,2,November,9
+389,Namkeen,32,Winter,2,Summer,1,February,3
+390,Girls Shirt,19,Summer,1,Summer,1,April,0
+391,Pooja Needs,38,Winter,2,Summer,1,December,2
+392,Ketchups,22,Winter,2,Winter,2,December,2
+393,Energy Drink,15,Winter,2,Winter,2,February,3
+394,Laundry Detergents,23,Summer,1,Monsoon,0,July,5
+395,Men Jeans,25,Winter,2,Winter,2,March,7
+396,Noodles,33,Winter,2,Winter,2,February,3
+397,Lip Care,24,Summer,1,Monsoon,0,June,6
+398,Tissues & Disposables,45,Monsoon,0,Winter,2,October,10
+399,Razors,39,Summer,1,Monsoon,0,July,5
+400,Girls Shirt,19,Winter,2,Summer,1,January,4
+401,MouthWash,31,Winter,2,Winter,2,January,4
+402,Men Jeans,25,Monsoon,0,Monsoon,0,November,9
+403,Men Trouser,28,Monsoon,0,Monsoon,0,November,9
+404,Sweets,43,Summer,1,Monsoon,0,April,0
+405,Chocklate,9,Winter,2,Winter,2,January,4
+406,Frozen Foods,18,Summer,1,Summer,1,May,8
+407,Tea,44,Monsoon,0,Monsoon,0,September,11
+408,Hair Oil,20,Winter,2,Summer,1,January,4
+409,Coffee,11,Summer,1,Monsoon,0,April,0
+410,Pooja Needs,38,Summer,1,Summer,1,April,0
+411,Dog Supplies,14,Winter,2,Winter,2,February,3
+412,Perfumes,36,Winter,2,Summer,1,February,3
+413,Dishwashes,13,Monsoon,0,Winter,2,October,10
+414,Laundry Detergents,23,Winter,2,Winter,2,December,2
+415,Candy,4,Summer,1,Summer,1,June,6
+416,Cat Supplies,7,Summer,1,Summer,1,May,8
+417,Pain Relievers,34,Winter,2,Winter,2,December,2
+418,Tissues & Disposables,45,Winter,2,Summer,1,January,4
+419,Chocklate,9,Monsoon,0,Monsoon,0,August,1
+420,Cat Supplies,7,Winter,2,Winter,2,December,2
+421,Pooja Needs,38,Summer,1,Monsoon,0,May,8
+422,Pain Relievers,34,Monsoon,0,Winter,2,September,11
+423,Women Trouser,51,Summer,1,Monsoon,0,April,0
+424,Milk Drink,30,Winter,2,Summer,1,January,4
+425,Pain Relievers,34,Monsoon,0,Winter,2,October,10
+426,Men Jeans,25,Winter,2,Winter,2,December,2
+427,Face Wash,17,Monsoon,0,Monsoon,0,November,9
+428,Cleaners,10,Winter,2,Winter,2,February,3
+429,Face Cream,16,Winter,2,Winter,2,December,2
+430,Sweets,43,Winter,2,Winter,2,February,3
+431,Pickels,37,Summer,1,Summer,1,July,5
+432,Boys Shirt,2,Monsoon,0,Monsoon,0,October,10
+433,Hair Oil,20,Summer,1,Monsoon,0,June,6
+434,Energy Drink,15,Summer,1,Monsoon,0,June,6
+435,Soft Drink,42,Summer,1,Summer,1,April,0
+436,Laundry Detergents,23,Winter,2,Summer,1,March,7
+437,Conditioner,12,Winter,2,Winter,2,February,3
+438,Men Shirt,26,Summer,1,Summer,1,May,8
+439,Women Jeans,48,Winter,2,Summer,1,December,2
+440,Pasta,35,Summer,1,Monsoon,0,May,8
+441,Face Cream,16,Winter,2,Summer,1,February,3
+442,Men Jeans,25,Monsoon,0,Winter,2,October,10
+443,Dog Supplies,14,Summer,1,Monsoon,0,May,8
+444,ToothBrush,46,Winter,2,Winter,2,February,3
+445,Candy,4,Monsoon,0,Monsoon,0,October,10
+446,Coffee,11,Winter,2,Winter,2,December,2
+447,Noodles,33,Winter,2,Winter,2,January,4
+448,Cartidges,6,Monsoon,0,Winter,2,October,10
+449,Girls Shirt,19,Summer,1,Summer,1,June,6
+450,Soft Drink,42,Monsoon,0,Winter,2,November,9
+451,Dog Supplies,14,Winter,2,Summer,1,March,7
+452,Cleaners,10,Summer,1,Summer,1,July,5
+453,ToothPaste,47,Summer,1,Monsoon,0,May,8
+454,Frozen Foods,18,Winter,2,Winter,2,December,2
+455,Chocklate,9,Summer,1,Summer,1,May,8
+456,Cartidges,6,Monsoon,0,Monsoon,0,October,10
+457,Candy,4,Winter,2,Winter,2,December,2
+458,ToothBrush,46,Monsoon,0,Monsoon,0,September,11
+459,Hand Wash,21,Monsoon,0,Monsoon,0,August,1
+460,ToothPaste,47,Monsoon,0,Winter,2,September,11
+461,Men Shirt,26,Summer,1,Monsoon,0,April,0
+462,Pain Relievers,34,Winter,2,Summer,1,January,4
+463,Men Shirt,26,Summer,1,Monsoon,0,July,5
+464,Boys Shirt,2,Summer,1,Summer,1,July,5
+465,Face Cream,16,Monsoon,0,Monsoon,0,September,11
+466,ToothBrush,46,Summer,1,Monsoon,0,April,0
+467,Conditioner,12,Monsoon,0,Monsoon,0,August,1
+468,Face Cream,16,Monsoon,0,Winter,2,October,10
+469,Sweets,43,Winter,2,Summer,1,December,2
+470,Sanitary Care,40,Monsoon,0,Monsoon,0,August,1
+471,Girls Shirt,19,Monsoon,0,Monsoon,0,September,11
+472,Breads Grains,3,Winter,2,Winter,2,December,2
+473,Conditioner,12,Summer,1,Summer,1,June,6
+474,Sanitary Care,40,Monsoon,0,Winter,2,September,11
+475,Pickels,37,Monsoon,0,Winter,2,August,1
+476,Girls Shirt,19,Winter,2,Summer,1,February,3
+477,Shampoo,41,Summer,1,Summer,1,July,5
+478,Cartidges,6,Summer,1,Summer,1,June,6
+479,Pain Relievers,34,Winter,2,Winter,2,March,7
+480,Women T-Shirt,50,Monsoon,0,Monsoon,0,August,1
+481,Men Shirt,26,Winter,2,Winter,2,March,7
+482,Cartidges,6,Monsoon,0,Monsoon,0,August,1
+483,Face Cream,16,Summer,1,Summer,1,May,8
+484,Hand Wash,21,Winter,2,Summer,1,December,2
+485,Laundry Detergents,23,Winter,2,Winter,2,December,2
+486,MouthWash,31,Summer,1,Summer,1,April,0
+487,Body Lotion,1,Winter,2,Winter,2,February,3
+488,Women T-Shirt,50,Winter,2,Summer,1,December,2
+489,Lip Care,24,Summer,1,Summer,1,April,0
+490,Coffee,11,Monsoon,0,Monsoon,0,October,10
+491,Pasta,35,Summer,1,Monsoon,0,May,8
+492,Perfumes,36,Monsoon,0,Monsoon,0,October,10
+493,Boys Shirt,2,Summer,1,Summer,1,June,6
+494,Canned Foods,5,Monsoon,0,Winter,2,November,9
+495,Coffee,11,Winter,2,Summer,1,January,4
+496,Breads Grains,3,Winter,2,Summer,1,December,2
+497,Breads Grains,3,Monsoon,0,Winter,2,September,11
+498,Girls Shirt,19,Monsoon,0,Monsoon,0,August,1
+499,ToothBrush,46,Summer,1,Summer,1,May,8
+500,Tea,44,Monsoon,0,Monsoon,0,August,1
+501,MouthWash,31,Summer,1,Monsoon,0,April,0
+502,Pasta,35,Summer,1,Monsoon,0,May,8
+503,Pooja Needs,38,Monsoon,0,Winter,2,November,9
+504,Pain Relievers,34,Summer,1,Summer,1,May,8
+505,Women's Deo,52,Winter,2,Summer,1,December,2
+506,Cat Supplies,7,Monsoon,0,Monsoon,0,October,10
+507,MouthWash,31,Winter,2,Summer,1,December,2
+508,Sanitary Care,40,Winter,2,Summer,1,January,4
+509,Namkeen,32,Winter,2,Winter,2,March,7
+510,Cat Supplies,7,Summer,1,Monsoon,0,June,6
+511,Biscuits,0,Monsoon,0,Winter,2,August,1
+512,Pooja Needs,38,Monsoon,0,Monsoon,0,November,9
+513,Face Cream,16,Summer,1,Monsoon,0,April,0
+514,MouthWash,31,Monsoon,0,Monsoon,0,October,10
+515,Soft Drink,42,Monsoon,0,Monsoon,0,September,11
+516,Chocklate,9,Summer,1,Summer,1,June,6
+517,Chips,8,Monsoon,0,Monsoon,0,August,1
+518,Face Cream,16,Summer,1,Summer,1,May,8
+519,Ketchups,22,Monsoon,0,Winter,2,September,11
+520,Sweets,43,Monsoon,0,Monsoon,0,September,11
+521,Cartidges,6,Winter,2,Summer,1,January,4
+522,Women T-Shirt,50,Monsoon,0,Winter,2,October,10
+523,Cleaners,10,Winter,2,Summer,1,March,7
+524,Pasta,35,Summer,1,Summer,1,July,5
+525,Cat Supplies,7,Monsoon,0,Winter,2,September,11
+526,Body Lotion,1,Monsoon,0,Winter,2,October,10
+527,Coffee,11,Monsoon,0,Winter,2,October,10
+528,Perfumes,36,Winter,2,Summer,1,January,4
+529,Cartidges,6,Winter,2,Winter,2,January,4
+530,Sweets,43,Summer,1,Monsoon,0,May,8
+531,Razors,39,Winter,2,Winter,2,March,7
+532,Laundry Detergents,23,Winter,2,Winter,2,February,3
+533,Men Shirt,26,Summer,1,Summer,1,April,0
+534,Tea,44,Winter,2,Summer,1,January,4
+535,Shampoo,41,Summer,1,Monsoon,0,June,6
+536,Pooja Needs,38,Summer,1,Summer,1,April,0
+537,Men's Deo,29,Winter,2,Winter,2,December,2
+538,Cartidges,6,Winter,2,Winter,2,February,3
+539,Face Wash,17,Monsoon,0,Monsoon,0,August,1
+540,Perfumes,36,Summer,1,Monsoon,0,July,5
+541,Cat Supplies,7,Winter,2,Summer,1,December,2
+542,Hair Oil,20,Summer,1,Summer,1,June,6
+543,Noodles,33,Summer,1,Summer,1,April,0
+544,Women Jeans,48,Monsoon,0,Winter,2,November,9
+545,Laundry Detergents,23,Summer,1,Summer,1,April,0
+546,Men Shirt,26,Monsoon,0,Monsoon,0,August,1
+547,Razors,39,Winter,2,Summer,1,January,4
+548,Men Trouser,28,Monsoon,0,Monsoon,0,August,1
+549,Pain Relievers,34,Summer,1,Summer,1,April,0
+550,Pasta,35,Winter,2,Winter,2,December,2
+551,Men's Deo,29,Monsoon,0,Monsoon,0,August,1
+552,Tea,44,Winter,2,Summer,1,January,4
+553,Pain Relievers,34,Winter,2,Winter,2,January,4
+554,Dishwashes,13,Monsoon,0,Monsoon,0,November,9
+555,Sanitary Care,40,Winter,2,Summer,1,March,7
+556,MouthWash,31,Winter,2,Winter,2,December,2
+557,Pickels,37,Monsoon,0,Monsoon,0,September,11
+558,Sweets,43,Winter,2,Summer,1,March,7
+559,Ketchups,22,Monsoon,0,Monsoon,0,November,9
+560,MouthWash,31,Summer,1,Summer,1,April,0
+561,Energy Drink,15,Summer,1,Monsoon,0,April,0
+562,Frozen Foods,18,Monsoon,0,Monsoon,0,August,1
+563,Dog Supplies,14,Winter,2,Winter,2,February,3
+564,Men Trouser,28,Monsoon,0,Monsoon,0,September,11
+565,Men Shirt,26,Winter,2,Winter,2,March,7
+566,Dog Supplies,14,Monsoon,0,Monsoon,0,September,11
+567,Soft Drink,42,Winter,2,Summer,1,March,7
+568,Cat Supplies,7,Summer,1,Monsoon,0,May,8
+569,Breads Grains,3,Monsoon,0,Monsoon,0,October,10
+570,Noodles,33,Winter,2,Winter,2,January,4
+571,Hand Wash,21,Monsoon,0,Monsoon,0,August,1
+572,Men's Deo,29,Winter,2,Winter,2,February,3
+573,Coffee,11,Monsoon,0,Monsoon,0,September,11
+574,Women's Deo,52,Winter,2,Winter,2,January,4
+575,Biscuits,0,Winter,2,Winter,2,March,7
+576,Men Trouser,28,Summer,1,Summer,1,May,8
+577,Frozen Foods,18,Summer,1,Summer,1,April,0
+578,Pain Relievers,34,Winter,2,Winter,2,January,4
+579,Cat Supplies,7,Summer,1,Monsoon,0,May,8
+580,Tissues & Disposables,45,Monsoon,0,Monsoon,0,September,11
+581,Men Jeans,25,Monsoon,0,Monsoon,0,November,9
+582,Men Trouser,28,Winter,2,Winter,2,February,3
+583,Shampoo,41,Summer,1,Monsoon,0,June,6
+584,Hand Wash,21,Monsoon,0,Monsoon,0,October,10
+585,Laundry Detergents,23,Summer,1,Summer,1,April,0
+586,Conditioner,12,Monsoon,0,Monsoon,0,September,11
+587,Canned Foods,5,Monsoon,0,Monsoon,0,August,1
+588,Pain Relievers,34,Winter,2,Summer,1,February,3
+589,Pickels,37,Winter,2,Summer,1,December,2
+590,Energy Drink,15,Monsoon,0,Monsoon,0,November,9
+591,Face Wash,17,Winter,2,Summer,1,February,3
+592,Women Trouser,51,Winter,2,Winter,2,January,4
+593,Girls Shirt,19,Monsoon,0,Monsoon,0,November,9
+594,Breads Grains,3,Summer,1,Monsoon,0,July,5
+595,Ketchups,22,Summer,1,Summer,1,April,0
+596,Chips,8,Summer,1,Summer,1,May,8
+597,Women Trouser,51,Winter,2,Summer,1,December,2
+598,Cleaners,10,Winter,2,Summer,1,December,2
+599,Sweets,43,Summer,1,Monsoon,0,June,6
+600,Chips,8,Winter,2,Winter,2,March,7
+601,Cleaners,10,Winter,2,Winter,2,December,2
+602,Candy,4,Summer,1,Summer,1,June,6
+603,Frozen Foods,18,Winter,2,Winter,2,January,4
+604,Tea,44,Summer,1,Summer,1,July,5
+605,Ketchups,22,Summer,1,Monsoon,0,July,5
+606,Women Shirt,49,Monsoon,0,Monsoon,0,October,10
+607,Sanitary Care,40,Monsoon,0,Monsoon,0,November,9
+608,Dog Supplies,14,Summer,1,Monsoon,0,April,0
+609,Sweets,43,Monsoon,0,Winter,2,September,11
+610,Dishwashes,13,Summer,1,Summer,1,July,5
+611,Noodles,33,Monsoon,0,Winter,2,November,9
+612,ToothBrush,46,Monsoon,0,Monsoon,0,October,10
+613,Cleaners,10,Summer,1,Summer,1,April,0
+614,Dishwashes,13,Monsoon,0,Monsoon,0,October,10
+615,Men Jeans,25,Winter,2,Winter,2,January,4
+616,Chips,8,Winter,2,Winter,2,March,7
+617,Razors,39,Winter,2,Winter,2,January,4
+618,Laundry Detergents,23,Summer,1,Monsoon,0,July,5
+619,Shampoo,41,Summer,1,Summer,1,May,8
+620,Women Shirt,49,Summer,1,Summer,1,June,6
+621,Namkeen,32,Winter,2,Summer,1,March,7
+622,Pickels,37,Summer,1,Monsoon,0,June,6
+623,Body Lotion,1,Winter,2,Summer,1,February,3
+624,Namkeen,32,Summer,1,Monsoon,0,June,6
+625,Cartidges,6,Winter,2,Summer,1,March,7
+626,Frozen Foods,18,Summer,1,Monsoon,0,July,5
+627,Chips,8,Summer,1,Summer,1,April,0
+628,Noodles,33,Summer,1,Summer,1,April,0
+629,Milk Drink,30,Winter,2,Winter,2,December,2
+630,Sanitary Care,40,Winter,2,Winter,2,December,2
+631,Ketchups,22,Monsoon,0,Monsoon,0,October,10
+632,Razors,39,Monsoon,0,Monsoon,0,October,10
+633,Namkeen,32,Summer,1,Monsoon,0,May,8
+634,Men Shirt,26,Summer,1,Monsoon,0,June,6
+635,MouthWash,31,Winter,2,Summer,1,March,7
+636,Chips,8,Monsoon,0,Monsoon,0,November,9
+637,Frozen Foods,18,Summer,1,Summer,1,April,0
+638,Face Cream,16,Summer,1,Monsoon,0,June,6
+639,Cleaners,10,Monsoon,0,Winter,2,August,1
+640,Razors,39,Monsoon,0,Monsoon,0,September,11
+641,Sanitary Care,40,Winter,2,Winter,2,December,2
+642,Body Lotion,1,Monsoon,0,Winter,2,October,10
+643,Women T-Shirt,50,Winter,2,Winter,2,December,2
+644,ToothBrush,46,Winter,2,Summer,1,December,2
+645,Boys Shirt,2,Summer,1,Summer,1,April,0
+646,Women's Deo,52,Monsoon,0,Winter,2,November,9
+647,Men T-Shirt,27,Monsoon,0,Winter,2,November,9
+648,Tissues & Disposables,45,Winter,2,Winter,2,January,4
+649,Face Wash,17,Winter,2,Summer,1,December,2
+650,Coffee,11,Monsoon,0,Monsoon,0,August,1
+651,Body Lotion,1,Monsoon,0,Winter,2,November,9
+652,Men's Deo,29,Monsoon,0,Monsoon,0,September,11
+653,ToothPaste,47,Monsoon,0,Winter,2,September,11
+654,Face Cream,16,Summer,1,Summer,1,May,8
+655,Noodles,33,Summer,1,Summer,1,June,6
+656,Coffee,11,Summer,1,Summer,1,April,0
+657,Laundry Detergents,23,Winter,2,Summer,1,December,2
+658,Hair Oil,20,Summer,1,Monsoon,0,April,0
+659,Namkeen,32,Summer,1,Monsoon,0,June,6
+660,Face Wash,17,Winter,2,Winter,2,December,2
+661,Chocklate,9,Winter,2,Winter,2,March,7
+662,Pickels,37,Summer,1,Summer,1,April,0
+663,Laundry Detergents,23,Summer,1,Summer,1,April,0
+664,Face Cream,16,Monsoon,0,Winter,2,September,11
+665,Frozen Foods,18,Monsoon,0,Monsoon,0,September,11
+666,Biscuits,0,Summer,1,Monsoon,0,June,6
+667,Boys Shirt,2,Winter,2,Summer,1,March,7
+668,Ketchups,22,Monsoon,0,Monsoon,0,September,11
+669,Laundry Detergents,23,Winter,2,Winter,2,March,7
+670,Women Jeans,48,Summer,1,Summer,1,April,0
+671,Laundry Detergents,23,Summer,1,Monsoon,0,July,5
+672,Canned Foods,5,Summer,1,Summer,1,May,8
+673,Biscuits,0,Summer,1,Monsoon,0,June,6
+674,Dog Supplies,14,Monsoon,0,Winter,2,October,10
+675,Laundry Detergents,23,Monsoon,0,Winter,2,October,10
+676,Dog Supplies,14,Monsoon,0,Monsoon,0,September,11
+677,Body Lotion,1,Summer,1,Summer,1,June,6
+678,Ketchups,22,Summer,1,Monsoon,0,April,0
+679,Laundry Detergents,23,Winter,2,Summer,1,February,3
+680,Pooja Needs,38,Summer,1,Monsoon,0,June,6
+681,Hair Oil,20,Monsoon,0,Winter,2,August,1
+682,Conditioner,12,Winter,2,Summer,1,March,7
+683,Canned Foods,5,Monsoon,0,Winter,2,October,10
+684,Milk Drink,30,Summer,1,Summer,1,May,8
+685,Women's Deo,52,Monsoon,0,Winter,2,November,9
+686,Men's Deo,29,Winter,2,Summer,1,December,2
+687,Shampoo,41,Summer,1,Monsoon,0,April,0
+688,Men Shirt,26,Monsoon,0,Winter,2,August,1
+689,Breads Grains,3,Winter,2,Winter,2,January,4
+690,Perfumes,36,Monsoon,0,Monsoon,0,November,9
+691,Tea,44,Winter,2,Winter,2,December,2
+692,Sweets,43,Summer,1,Summer,1,May,8
+693,ToothBrush,46,Winter,2,Winter,2,January,4
+694,Face Cream,16,Monsoon,0,Winter,2,November,9
+695,Pickels,37,Winter,2,Winter,2,December,2
+696,MouthWash,31,Summer,1,Monsoon,0,June,6
+697,Ketchups,22,Summer,1,Summer,1,June,6
+698,Hand Wash,21,Winter,2,Summer,1,January,4
+699,Cleaners,10,Winter,2,Summer,1,January,4
+700,Razors,39,Winter,2,Summer,1,January,4
+701,Dishwashes,13,Summer,1,Summer,1,June,6
+702,Biscuits,0,Monsoon,0,Winter,2,October,10
+703,Men T-Shirt,27,Monsoon,0,Winter,2,October,10
+704,Women Shirt,49,Summer,1,Summer,1,April,0
+705,Girls Shirt,19,Winter,2,Summer,1,January,4
+706,Hand Wash,21,Summer,1,Summer,1,April,0
+707,Laundry Detergents,23,Monsoon,0,Winter,2,October,10
+708,Candy,4,Monsoon,0,Monsoon,0,October,10
+709,Breads Grains,3,Winter,2,Winter,2,February,3
+710,Breads Grains,3,Monsoon,0,Monsoon,0,August,1
+711,Sanitary Care,40,Summer,1,Monsoon,0,July,5
+712,Women's Deo,52,Winter,2,Winter,2,February,3
+713,Women Jeans,48,Summer,1,Summer,1,July,5
+714,Chocklate,9,Summer,1,Summer,1,May,8
+715,Tissues & Disposables,45,Winter,2,Summer,1,December,2
+716,Pooja Needs,38,Summer,1,Summer,1,April,0
+717,Milk Drink,30,Summer,1,Monsoon,0,May,8
+718,Women Jeans,48,Monsoon,0,Monsoon,0,August,1
+719,Face Wash,17,Summer,1,Monsoon,0,May,8
+720,Hair Oil,20,Monsoon,0,Winter,2,September,11
+721,Soft Drink,42,Winter,2,Winter,2,March,7
+722,Dishwashes,13,Summer,1,Monsoon,0,May,8
+723,Chocklate,9,Summer,1,Summer,1,June,6
+724,Chocklate,9,Summer,1,Summer,1,July,5
+725,Coffee,11,Summer,1,Monsoon,0,July,5
+726,Hair Oil,20,Summer,1,Summer,1,June,6
+727,Tea,44,Summer,1,Summer,1,July,5
+728,Biscuits,0,Monsoon,0,Monsoon,0,October,10
+729,Noodles,33,Summer,1,Summer,1,May,8
+730,Chips,8,Monsoon,0,Monsoon,0,November,9
+731,Noodles,33,Summer,1,Monsoon,0,June,6
+732,Laundry Detergents,23,Winter,2,Summer,1,February,3
+733,Noodles,33,Winter,2,Winter,2,March,7
+734,Pooja Needs,38,Monsoon,0,Winter,2,August,1
+735,Ketchups,22,Monsoon,0,Winter,2,September,11
+736,Women Shirt,49,Winter,2,Winter,2,February,3
+737,Cartidges,6,Monsoon,0,Monsoon,0,November,9
+738,Cat Supplies,7,Monsoon,0,Winter,2,September,11
+739,Cleaners,10,Monsoon,0,Monsoon,0,September,11
+740,ToothPaste,47,Winter,2,Summer,1,December,2
+741,Men Jeans,25,Monsoon,0,Monsoon,0,November,9
+742,Breads Grains,3,Winter,2,Winter,2,January,4
+743,Frozen Foods,18,Monsoon,0,Monsoon,0,August,1
+744,Breads Grains,3,Summer,1,Summer,1,July,5
+745,Hand Wash,21,Winter,2,Winter,2,February,3
+746,Chips,8,Summer,1,Summer,1,June,6
+747,Biscuits,0,Summer,1,Summer,1,July,5
+748,Pooja Needs,38,Winter,2,Winter,2,January,4
+749,Breads Grains,3,Monsoon,0,Winter,2,October,10
+750,Girls Shirt,19,Winter,2,Winter,2,March,7
+751,Pain Relievers,34,Summer,1,Monsoon,0,June,6
+752,Canned Foods,5,Monsoon,0,Winter,2,November,9
+753,Pickels,37,Summer,1,Summer,1,June,6
+754,MouthWash,31,Summer,1,Summer,1,June,6
+755,Breads Grains,3,Monsoon,0,Monsoon,0,August,1
+756,Cartidges,6,Monsoon,0,Winter,2,August,1
+757,Tissues & Disposables,45,Monsoon,0,Winter,2,September,11
+758,Men Shirt,26,Winter,2,Winter,2,March,7
+759,Men Trouser,28,Winter,2,Summer,1,January,4
+760,Tea,44,Summer,1,Summer,1,June,6
+761,Chips,8,Winter,2,Winter,2,January,4
+762,Women Jeans,48,Monsoon,0,Monsoon,0,August,1
+763,Namkeen,32,Monsoon,0,Winter,2,August,1
+764,Energy Drink,15,Winter,2,Summer,1,December,2
+765,Face Wash,17,Monsoon,0,Winter,2,November,9
+766,Men Jeans,25,Summer,1,Summer,1,June,6
+767,Pickels,37,Summer,1,Monsoon,0,June,6
+768,Ketchups,22,Summer,1,Summer,1,April,0
+769,Laundry Detergents,23,Summer,1,Monsoon,0,April,0
+770,Shampoo,41,Monsoon,0,Monsoon,0,October,10
+771,Razors,39,Summer,1,Summer,1,June,6
+772,Body Lotion,1,Summer,1,Monsoon,0,June,6
+773,Women Shirt,49,Winter,2,Winter,2,December,2
+774,Lip Care,24,Winter,2,Summer,1,January,4
+775,Dishwashes,13,Monsoon,0,Winter,2,September,11
+776,ToothBrush,46,Monsoon,0,Monsoon,0,November,9
+777,Pickels,37,Monsoon,0,Winter,2,November,9
+778,Women Jeans,48,Monsoon,0,Winter,2,October,10
+779,Pasta,35,Monsoon,0,Monsoon,0,September,11
+780,Men T-Shirt,27,Monsoon,0,Monsoon,0,November,9
+781,Men Shirt,26,Summer,1,Summer,1,June,6
+782,Chocklate,9,Summer,1,Monsoon,0,April,0
+783,Women Shirt,49,Winter,2,Winter,2,January,4
+784,Energy Drink,15,Monsoon,0,Monsoon,0,September,11
+785,Lip Care,24,Summer,1,Monsoon,0,June,6
+786,Energy Drink,15,Summer,1,Summer,1,May,8
+787,ToothPaste,47,Winter,2,Winter,2,February,3
+788,Hair Oil,20,Summer,1,Summer,1,April,0
+789,Conditioner,12,Winter,2,Winter,2,December,2
+790,Boys Shirt,2,Monsoon,0,Monsoon,0,August,1
+791,Hair Oil,20,Summer,1,Summer,1,April,0
+792,Pooja Needs,38,Summer,1,Monsoon,0,June,6
+793,Canned Foods,5,Monsoon,0,Winter,2,October,10
+794,Sanitary Care,40,Summer,1,Monsoon,0,April,0
+795,Sanitary Care,40,Monsoon,0,Winter,2,August,1
+796,Girls Shirt,19,Monsoon,0,Winter,2,August,1
+797,Dog Supplies,14,Monsoon,0,Monsoon,0,November,9
+798,MouthWash,31,Summer,1,Summer,1,May,8
+799,Perfumes,36,Summer,1,Summer,1,May,8
+800,Conditioner,12,Monsoon,0,Monsoon,0,September,11
+801,Women Jeans,48,Summer,1,Monsoon,0,June,6
+802,Shampoo,41,Winter,2,Summer,1,March,7
+803,Laundry Detergents,23,Winter,2,Winter,2,January,4
+804,Frozen Foods,18,Winter,2,Summer,1,February,3
+805,Canned Foods,5,Monsoon,0,Winter,2,October,10
+806,Women T-Shirt,50,Monsoon,0,Monsoon,0,October,10
+807,Face Cream,16,Winter,2,Winter,2,December,2
+808,Body Lotion,1,Summer,1,Monsoon,0,June,6
+809,Pain Relievers,34,Winter,2,Winter,2,January,4
+810,Candy,4,Winter,2,Summer,1,January,4
+811,Women T-Shirt,50,Winter,2,Winter,2,February,3
+812,Men's Deo,29,Winter,2,Summer,1,January,4
+813,Dishwashes,13,Monsoon,0,Winter,2,October,10
+814,Soft Drink,42,Monsoon,0,Monsoon,0,November,9
+815,Pooja Needs,38,Summer,1,Summer,1,May,8
+816,Face Wash,17,Summer,1,Summer,1,June,6
+817,Noodles,33,Summer,1,Monsoon,0,June,6
+818,MouthWash,31,Winter,2,Winter,2,December,2
+819,Women Trouser,51,Winter,2,Winter,2,January,4
+820,Biscuits,0,Winter,2,Winter,2,January,4
+821,Biscuits,0,Monsoon,0,Winter,2,August,1
+822,Men Shirt,26,Summer,1,Summer,1,May,8
+823,Men's Deo,29,Monsoon,0,Winter,2,August,1
+824,MouthWash,31,Winter,2,Summer,1,December,2
+825,Chips,8,Summer,1,Summer,1,April,0
+826,Tea,44,Summer,1,Summer,1,April,0
+827,Men's Deo,29,Winter,2,Winter,2,December,2
+828,Chocklate,9,Summer,1,Monsoon,0,May,8
+829,Women T-Shirt,50,Monsoon,0,Monsoon,0,August,1
+830,Men's Deo,29,Summer,1,Monsoon,0,June,6
+831,Pain Relievers,34,Summer,1,Summer,1,April,0
+832,Men Trouser,28,Winter,2,Winter,2,February,3
+833,Men Shirt,26,Summer,1,Monsoon,0,April,0
+834,Face Wash,17,Monsoon,0,Monsoon,0,September,11
+835,Men T-Shirt,27,Monsoon,0,Monsoon,0,November,9
+836,Laundry Detergents,23,Monsoon,0,Monsoon,0,October,10
+837,Sweets,43,Winter,2,Winter,2,February,3
+838,Sanitary Care,40,Monsoon,0,Monsoon,0,October,10
+839,Coffee,11,Summer,1,Monsoon,0,July,5
+840,Breads Grains,3,Summer,1,Monsoon,0,June,6
+841,Women Jeans,48,Monsoon,0,Winter,2,November,9
+842,Women T-Shirt,50,Summer,1,Summer,1,April,0
+843,Conditioner,12,Winter,2,Winter,2,March,7
+844,Dog Supplies,14,Monsoon,0,Monsoon,0,October,10
+845,Frozen Foods,18,Monsoon,0,Winter,2,September,11
+846,Men Jeans,25,Monsoon,0,Winter,2,October,10
+847,Pickels,37,Monsoon,0,Monsoon,0,October,10
+848,Namkeen,32,Monsoon,0,Winter,2,October,10
+849,Men's Deo,29,Monsoon,0,Winter,2,September,11
+850,Lip Care,24,Winter,2,Summer,1,March,7
+851,Razors,39,Winter,2,Winter,2,January,4
+852,Chocklate,9,Winter,2,Summer,1,March,7
+853,Men Trouser,28,Summer,1,Monsoon,0,May,8
+854,Men T-Shirt,27,Summer,1,Summer,1,June,6
+855,Razors,39,Winter,2,Winter,2,March,7
+856,Pickels,37,Winter,2,Winter,2,January,4
+857,Pickels,37,Summer,1,Monsoon,0,July,5
+858,Perfumes,36,Monsoon,0,Monsoon,0,November,9
+859,Tissues & Disposables,45,Winter,2,Winter,2,March,7
+860,Men's Deo,29,Monsoon,0,Monsoon,0,September,11
+861,Women Jeans,48,Summer,1,Summer,1,May,8
+862,Women Trouser,51,Monsoon,0,Monsoon,0,October,10
+863,Milk Drink,30,Winter,2,Winter,2,March,7
+864,Sanitary Care,40,Monsoon,0,Winter,2,August,1
+865,Milk Drink,30,Summer,1,Summer,1,May,8
+866,Boys Shirt,2,Monsoon,0,Monsoon,0,September,11
+867,Tea,44,Winter,2,Winter,2,February,3
+868,Boys Shirt,2,Summer,1,Summer,1,June,6
+869,Men T-Shirt,27,Monsoon,0,Winter,2,September,11
+870,Dishwashes,13,Monsoon,0,Monsoon,0,August,1
+871,Hand Wash,21,Summer,1,Monsoon,0,June,6
+872,Men Shirt,26,Monsoon,0,Monsoon,0,November,9
+873,Face Cream,16,Summer,1,Summer,1,April,0
+874,Breads Grains,3,Summer,1,Summer,1,May,8
+875,Razors,39,Monsoon,0,Monsoon,0,October,10
+876,Tissues & Disposables,45,Monsoon,0,Monsoon,0,August,1
+877,Ketchups,22,Monsoon,0,Monsoon,0,November,9
+878,Breads Grains,3,Winter,2,Winter,2,March,7
+879,Men Shirt,26,Winter,2,Summer,1,March,7
+880,Candy,4,Monsoon,0,Winter,2,October,10
+881,Coffee,11,Summer,1,Monsoon,0,April,0
+882,Dog Supplies,14,Summer,1,Monsoon,0,July,5
+883,Laundry Detergents,23,Monsoon,0,Monsoon,0,September,11
+884,Namkeen,32,Monsoon,0,Winter,2,August,1
+885,Face Cream,16,Summer,1,Summer,1,April,0
+886,Chocklate,9,Monsoon,0,Monsoon,0,September,11
+887,Shampoo,41,Monsoon,0,Monsoon,0,October,10
+888,Lip Care,24,Summer,1,Summer,1,May,8
+889,Canned Foods,5,Monsoon,0,Monsoon,0,August,1
+890,Razors,39,Winter,2,Winter,2,February,3
+891,Cat Supplies,7,Winter,2,Summer,1,January,4
+892,Ketchups,22,Monsoon,0,Winter,2,August,1
+893,Men Trouser,28,Monsoon,0,Winter,2,November,9
+894,Face Wash,17,Monsoon,0,Monsoon,0,September,11
+895,Tea,44,Winter,2,Summer,1,February,3
+896,Lip Care,24,Summer,1,Monsoon,0,June,6
+897,Breads Grains,3,Winter,2,Summer,1,February,3
+898,Sanitary Care,40,Monsoon,0,Monsoon,0,October,10
+899,Sanitary Care,40,Monsoon,0,Winter,2,November,9
+900,Face Cream,16,Winter,2,Winter,2,March,7
+901,Men Jeans,25,Monsoon,0,Monsoon,0,November,9
+902,Cat Supplies,7,Monsoon,0,Monsoon,0,August,1
+903,Coffee,11,Summer,1,Monsoon,0,June,6
+904,Biscuits,0,Summer,1,Summer,1,July,5
+905,Milk Drink,30,Monsoon,0,Monsoon,0,August,1
+906,Frozen Foods,18,Winter,2,Summer,1,February,3
+907,Namkeen,32,Winter,2,Winter,2,February,3
+908,Breads Grains,3,Monsoon,0,Winter,2,September,11
+909,Razors,39,Monsoon,0,Monsoon,0,September,11
+910,Shampoo,41,Summer,1,Monsoon,0,May,8
+911,Candy,4,Summer,1,Summer,1,May,8
+912,Women's Deo,52,Monsoon,0,Monsoon,0,August,1
+913,Canned Foods,5,Summer,1,Summer,1,May,8
+914,ToothPaste,47,Summer,1,Summer,1,July,5
+915,Laundry Detergents,23,Winter,2,Summer,1,March,7
+916,Dog Supplies,14,Winter,2,Winter,2,February,3
+917,Biscuits,0,Monsoon,0,Monsoon,0,October,10
+918,Chocklate,9,Monsoon,0,Monsoon,0,October,10
+919,Cartidges,6,Summer,1,Monsoon,0,May,8
+920,Cartidges,6,Monsoon,0,Monsoon,0,November,9
+921,Shampoo,41,Summer,1,Monsoon,0,June,6
+922,Pickels,37,Monsoon,0,Monsoon,0,August,1
+923,Women Shirt,49,Winter,2,Summer,1,January,4
+924,Hair Oil,20,Monsoon,0,Winter,2,November,9
+925,Girls Shirt,19,Winter,2,Summer,1,December,2
+926,Boys Shirt,2,Monsoon,0,Monsoon,0,September,11
+927,Lip Care,24,Monsoon,0,Winter,2,November,9
+928,Cleaners,10,Monsoon,0,Monsoon,0,August,1
+929,Women's Deo,52,Summer,1,Monsoon,0,July,5
+930,Cartidges,6,Summer,1,Monsoon,0,June,6
+931,Pickels,37,Winter,2,Summer,1,March,7
+932,ToothPaste,47,Winter,2,Summer,1,December,2
+933,Cartidges,6,Winter,2,Winter,2,December,2
+934,Breads Grains,3,Monsoon,0,Winter,2,August,1
+935,Cartidges,6,Summer,1,Summer,1,June,6
+936,Frozen Foods,18,Winter,2,Summer,1,December,2
+937,Hand Wash,21,Winter,2,Summer,1,December,2
+938,Razors,39,Winter,2,Summer,1,February,3
+939,Women's Deo,52,Summer,1,Summer,1,May,8
+940,Body Lotion,1,Winter,2,Summer,1,March,7
+941,Shampoo,41,Winter,2,Winter,2,March,7
+942,Perfumes,36,Summer,1,Summer,1,June,6
+943,Men T-Shirt,27,Monsoon,0,Monsoon,0,October,10
+944,Men's Deo,29,Monsoon,0,Monsoon,0,October,10
+945,ToothBrush,46,Summer,1,Summer,1,June,6
+946,Tissues & Disposables,45,Winter,2,Winter,2,March,7
+947,Coffee,11,Monsoon,0,Monsoon,0,August,1
+948,Cleaners,10,Monsoon,0,Monsoon,0,October,10
+949,Tea,44,Summer,1,Summer,1,April,0
+950,ToothPaste,47,Monsoon,0,Winter,2,September,11
+951,ToothBrush,46,Winter,2,Winter,2,February,3
+952,Perfumes,36,Monsoon,0,Winter,2,September,11
+953,Cartidges,6,Summer,1,Summer,1,July,5
+954,Laundry Detergents,23,Monsoon,0,Monsoon,0,October,10
+955,Pain Relievers,34,Winter,2,Winter,2,January,4
+956,Pickels,37,Winter,2,Winter,2,January,4
+957,Pasta,35,Winter,2,Summer,1,January,4
+958,Canned Foods,5,Winter,2,Winter,2,December,2
+959,Namkeen,32,Winter,2,Winter,2,January,4
+960,Shampoo,41,Summer,1,Summer,1,July,5
+961,Biscuits,0,Summer,1,Monsoon,0,June,6
+962,Sweets,43,Summer,1,Monsoon,0,April,0
+963,Milk Drink,30,Summer,1,Monsoon,0,June,6
+964,Hand Wash,21,Winter,2,Winter,2,March,7
+965,Candy,4,Winter,2,Summer,1,March,7
+966,Pain Relievers,34,Monsoon,0,Winter,2,August,1
+967,Pooja Needs,38,Monsoon,0,Monsoon,0,November,9
+968,Chocklate,9,Monsoon,0,Monsoon,0,November,9
+969,MouthWash,31,Winter,2,Winter,2,December,2
+970,Women Shirt,49,Monsoon,0,Monsoon,0,October,10
+971,Namkeen,32,Winter,2,Winter,2,January,4
+972,Pooja Needs,38,Summer,1,Summer,1,July,5
+973,Cat Supplies,7,Summer,1,Summer,1,April,0
+974,Tea,44,Monsoon,0,Monsoon,0,November,9
+975,Laundry Detergents,23,Monsoon,0,Monsoon,0,August,1
+976,Hand Wash,21,Monsoon,0,Winter,2,September,11
+977,Chips,8,Monsoon,0,Monsoon,0,August,1
+978,Energy Drink,15,Monsoon,0,Monsoon,0,October,10
+979,Women Trouser,51,Winter,2,Winter,2,February,3
+980,Pasta,35,Monsoon,0,Monsoon,0,October,10
+981,Milk Drink,30,Winter,2,Summer,1,December,2
+982,Men Jeans,25,Winter,2,Winter,2,March,7
+983,Women Jeans,48,Monsoon,0,Monsoon,0,August,1
+984,Pickels,37,Monsoon,0,Monsoon,0,November,9
+985,ToothPaste,47,Monsoon,0,Winter,2,September,11
+986,Biscuits,0,Summer,1,Monsoon,0,July,5
+987,Noodles,33,Summer,1,Summer,1,May,8
+988,Boys Shirt,2,Monsoon,0,Winter,2,August,1
+989,Perfumes,36,Summer,1,Summer,1,July,5
+990,Pasta,35,Monsoon,0,Monsoon,0,September,11
+991,Ketchups,22,Summer,1,Summer,1,May,8
+992,Tissues & Disposables,45,Winter,2,Summer,1,December,2
+993,Conditioner,12,Summer,1,Summer,1,June,6
+994,Women Shirt,49,Winter,2,Winter,2,February,3
+995,Body Lotion,1,Monsoon,0,Winter,2,September,11
+996,Face Wash,17,Summer,1,Monsoon,0,July,5
+997,Frozen Foods,18,Winter,2,Winter,2,January,4
+998,Cartidges,6,Winter,2,Summer,1,March,7
+999,Men's Deo,29,Winter,2,Summer,1,January,4

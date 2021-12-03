@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SalesStockPrediction</title>    <!-- base:css -->
+    <!-- base:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../static/adminResources/css/vendor.bundle.base.css">
+    <link rel="stylesheet" type="text/css" href="../../static/adminResources/css/star.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../static/adminResources/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../static/adminResources/image/favicon.png"/>
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    {% include 'files/header.html' %}
+
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+
+        {% include 'user/menu.html' %}
+
+
+        <!-- partial -->
+        <div class="main-panel">
+
+            <!-- content-wrapper ends -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form class="forms-sample" method="post" action="">
+
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Type</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_stock_type }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Purchased Season</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_stock_purchased_season }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Sell Season</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_stock_sell_season }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Purchased Month</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_stock_purchased_month }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Purchased</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_no_stock_purchased }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Stock Sell Duration Month</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_stock_sell_duration_months }}"
+                                                       readonly>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputCity1">Year</label>
+                                                <input type="text" class="form-control" id="exampleInputCity1"
+                                                       value="{{ prediction_vo_list.prediction_year }}"
+                                                       readonly>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial:../../partials/_footer.html -->
+
+            {% include 'files/footer.html' %}
+
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="../../static/adminResources/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="../../static/adminResources/js/off-canvas.js"></script>
+<script src="../../static/adminResources/js/hoverable-collapse.js"></script>
+<script src="../../static/adminResources/js/template.js"></script>
+<script src="../../static/adminResources/js/settings.js"></script>
+<script src="../../static/adminResources/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="../../static/adminResources/js/jquery.validate.min.js"></script>
+<script src="../../static/adminResources/js/bootstrap-maxlength.min.js"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="../../static/adminResources/js/form-validation.js"></script>
+<script src="../../static/adminResources/js/bt-maxLength.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>
