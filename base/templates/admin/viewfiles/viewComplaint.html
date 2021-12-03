@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Complaint's</title>    <!-- base:css -->
+    <!-- base:css -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../../static/adminResources/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../../../static/adminResources/css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../../static/adminResources/image/favicon.ico"/>
+</head>
+
+<body>
+<div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+
+
+    {% include 'files/header.html' %}
+
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+
+        {% include 'admin/menu.html' %}
+
+
+        <!-- partial -->
+        <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">View complaint</h4>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table-responsive">
+                                    <table id="order-listing" class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>Username</th>
+                                            <th>Complaint Subject</th>
+                                            <th>Complaint Description</th>
+                                            <th>DateTime</th>
+                                            <th>Actions</th>
+                                            <th>Status</th>
+                                            <th>Reply DateAndTime</th>
+                                            <th>Complaint Reply</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for row in complaintdata %}
+                                            <tr>
+                                                <td>{{ row[1].login_username }}</td>
+                                                <td>{{ row[0].complaint_subject }}</td>
+                                                <td>{{ row[0].complaint_description }}</td>
+                                                <td>{{ row[0].complaint_datetime }}</td>
+                                                <td>
+                                                    <a href="/admin/delete_complaint?complaintId={{ row[0].complaint_id }}">
+                                                        <i class="mdi mdi-delete"
+                                                           style="font-size: 22px;color: red"></i>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    {% if  row[0].complaint_status == 'pending' %}
+                                                        <a href="/admin/reply_complaint?complaintId={{ row[0].complaint_id }}">
+                                                            <button class="btn btn-outline-primary">Reply</button>
+                                                        </a>
+                                                    {% else %}
+                                                        <label class="badge badge-success">Replied</label>
+                                                    {% endif %}
+                                                </td>
+                                                {% if row[0].complaint_reply==None %}
+                                                    <td></td>
+                                                    <td></td>
+                                                {% else %}
+                                                    <td>{{ row[0].complaint_reply_datetime }}</td>
+                                                    <td>{{ row[0].complaint_reply_description }}</td>
+                                                {% endif %}
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+            <!-- partial:../../partials/_footer.html -->
+
+            {% include 'files/footer.html' %}
+
+            <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+</div>
+<!-- container-scroller -->
+<!-- base:js -->
+<script src="../../../static/adminResources/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="../../../static/adminResources/js/off-canvas.js"></script>
+<script src="../../../static/adminResources/js/hoverable-collapse.js"></script>
+<script src="../../../static/adminResources/js/template.js"></script>
+<script src="../../../static/adminResources/js/settings.js"></script>
+<script src="../../../static/adminResources/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+<script src="../../../static/adminResources/js/jquery.dataTables.js"></script>
+<script src="../../../static/adminResources/js/dataTables.bootstrap4.js"></script>
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="../../../static/adminResources/js/data-table.js"></script>
+<!-- End custom js for this page-->
+</body>
+
+</html>

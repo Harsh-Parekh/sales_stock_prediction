@@ -1,0 +1,1001 @@
+Stock_Id,No_Stock_Purchased,No_Stock_Sell,No_Stock_Returned,No_Stock_Remains,Stock_Type,Stock_Purchased_Season,Stock_Sell_Season,Stock_Purchased_Month,Stock_Sell_Duration_Months,Year
+personal18,791,132,461,197,Pain Relievers,2,2,2,1,2014
+personal3,710,316,275,118,Hair Oil,2,2,12,1,2018
+food6,964,451,359,153,Noodles,2,2,3,2,2017
+personal17,557,304,177,75,Cartidges,2,1,2,6,2014
+food12,935,552,268,114,Soft Drink,1,1,6,1,2015
+personal16,997,170,578,248,Razors,3,2,9,12,2014
+clo9,530,242,201,86,Women Trouser,1,1,4,2,2015
+house2,872,174,488,209,Dishwashes,1,1,5,6,2018
+personal14,535,399,95,40,Sanitary Care,1,1,4,11,2016
+food9,819,379,308,132,Pasta,1,1,4,3,2014
+food18,517,377,98,42,Canned Foods,2,1,1,6,2016
+food14,859,175,478,205,Coffee,3,3,10,5,2017
+clo3,615,499,81,34,Men Jeans,3,2,10,1,2014
+clo9,806,355,315,135,Women Trouser,1,1,6,4,2018
+food16,913,685,159,68,Energy Drink,3,3,9,7,2015
+personal9,813,637,123,52,Men's Deo,2,2,12,10,2018
+house4,980,510,329,141,Pooja Needs,1,1,6,10,2017
+personal18,586,579,4,2,Pain Relievers,2,1,2,3,2016
+personal17,673,280,275,117,Cartidges,2,2,1,5,2016
+clo3,584,422,113,48,Men Jeans,2,2,2,11,2018
+personal6,534,323,147,63,ToothPaste,2,2,2,10,2018
+house3,943,272,469,201,Cleaners,3,2,9,12,2016
+food8,842,730,78,33,Ketchups,2,1,3,6,2017
+clo10,739,497,169,72,Girls Shirt,1,3,5,6,2015
+clo1,887,441,312,133,Men Shirt,3,3,11,3,2018
+house4,586,268,222,95,Pooja Needs,3,2,8,9,2017
+house5,753,674,55,23,Tissues & Disposables,2,2,12,12,2016
+food15,839,685,107,46,Milk Drink,3,3,9,4,2014
+food13,573,507,46,19,Tea,2,1,3,8,2014
+food16,576,122,317,136,Energy Drink,2,2,12,5,2016
+house2,576,691,-80,-34,Dishwashes,1,1,5,5,2015
+house5,569,605,-25,-10,Tissues & Disposables,2,2,1,3,2015
+food9,601,600,0,0,Pasta,2,2,2,5,2014
+food17,796,524,190,81,Breads Grains,2,2,1,5,2015
+food18,584,684,-70,-30,Canned Foods,1,1,5,8,2015
+personal17,635,502,93,39,Cartidges,3,2,11,3,2018
+food14,806,269,375,161,Coffee,1,1,5,9,2017
+food19,543,311,162,69,Dog Supplies,2,2,1,6,2016
+food1,575,538,25,11,Biscuits,3,3,8,11,2016
+food18,899,148,525,225,Canned Foods,3,3,9,6,2017
+food6,982,709,191,81,Noodles,3,3,8,11,2014
+personal7,803,121,477,204,ToothBrush,3,3,10,4,2017
+clo9,712,430,197,84,Women Trouser,2,1,3,5,2016
+house3,527,573,-32,-13,Cleaners,1,3,4,10,2015
+personal2,905,480,297,127,Conditioner,1,3,6,12,2017
+food8,891,224,466,200,Ketchups,1,1,5,1,2018
+clo6,620,145,332,142,Women Shirt,3,3,9,7,2018
+personal9,917,455,323,138,Men's Deo,2,1,3,12,2018
+food12,771,401,259,111,Soft Drink,1,1,4,11,2016
+food16,652,357,206,88,Energy Drink,3,2,11,9,2017
+personal3,575,296,195,83,Hair Oil,3,3,8,3,2017
+food7,559,673,-79,-34,Pickels,3,2,9,3,2017
+clo7,530,122,285,122,Women T-Shirt,2,2,3,6,2016
+food1,754,582,120,51,Biscuits,1,3,6,5,2015
+personal13,562,638,-53,-22,Lip Care,1,3,7,7,2015
+food10,933,512,294,126,Candy,2,1,12,8,2018
+personal2,685,686,0,0,Conditioner,1,1,4,1,2015
+food12,582,282,210,90,Soft Drink,2,1,1,3,2016
+house2,539,550,-7,-3,Dishwashes,3,2,10,8,2015
+personal1,661,182,335,143,Shampoo,3,2,8,6,2015
+personal3,977,545,302,129,Hair Oil,1,1,7,5,2017
+personal9,824,284,378,162,Men's Deo,3,2,11,6,2014
+personal16,540,678,-96,-41,Razors,2,1,1,8,2016
+food9,581,488,65,27,Pasta,2,2,2,11,2016
+food5,993,392,420,180,Sweets,2,1,1,7,2017
+personal14,852,229,436,186,Sanitary Care,1,3,4,11,2014
+personal16,529,595,-46,-19,Razors,1,3,6,10,2017
+personal6,781,706,52,22,ToothPaste,1,1,4,2,2017
+personal11,678,629,34,14,Perfumes,3,3,10,5,2016
+food9,869,228,448,192,Pasta,3,3,10,9,2015
+food3,811,135,473,202,Chips,1,1,6,1,2015
+personal10,568,179,272,116,Women's Deo,3,2,8,10,2016
+food19,737,160,403,173,Dog Supplies,2,2,2,6,2014
+personal18,613,732,-83,-35,Pain Relievers,1,3,4,6,2016
+food18,975,530,311,133,Canned Foods,3,3,11,6,2018
+clo9,615,687,-50,-21,Women Trouser,2,2,2,2,2014
+house1,627,684,-39,-17,Laundry Detergents,2,2,2,8,2018
+food11,597,101,347,148,Frozen Foods,2,2,1,12,2018
+personal12,528,223,213,91,Face Wash,1,1,5,3,2015
+food15,520,428,64,27,Milk Drink,1,1,5,9,2014
+clo4,882,416,326,139,Boys Shirt,2,1,1,3,2018
+food2,896,124,540,231,Namkeen,3,3,11,7,2018
+food3,925,674,175,75,Chips,1,1,5,10,2018
+clo5,649,290,251,107,Men Trouser,3,2,8,11,2018
+food12,521,367,107,46,Soft Drink,1,3,5,8,2018
+personal5,798,214,408,175,Face Cream,1,3,4,10,2018
+clo1,563,122,308,132,Men Shirt,2,2,1,9,2015
+food8,918,182,515,220,Ketchups,1,1,6,12,2014
+clo8,969,282,480,206,Women Jeans,2,1,1,2,2015
+clo5,833,160,471,201,Men Trouser,1,1,6,1,2017
+personal7,690,649,28,12,ToothBrush,1,1,7,5,2014
+personal13,724,363,252,108,Lip Care,2,2,3,9,2015
+personal4,619,217,281,120,Body Lotion,3,2,8,2,2017
+food3,831,102,510,218,Chips,1,3,4,7,2017
+personal3,738,199,377,161,Hair Oil,1,3,4,6,2015
+clo1,574,197,263,113,Men Shirt,1,1,5,1,2017
+personal17,706,375,231,99,Cartidges,3,3,9,6,2015
+food13,990,255,514,220,Tea,3,3,11,8,2014
+personal4,657,695,-26,-11,Body Lotion,2,1,12,4,2018
+personal3,744,562,127,54,Hair Oil,2,2,3,9,2014
+personal4,756,129,438,188,Body Lotion,2,1,12,8,2018
+food13,815,253,393,168,Tea,3,3,9,1,2016
+food6,691,470,154,66,Noodles,3,2,8,2,2016
+food16,627,244,268,114,Energy Drink,1,1,5,7,2016
+clo2,968,693,192,82,Men T-Shirt,3,2,8,1,2014
+food7,732,682,35,15,Pickels,1,1,5,11,2017
+house4,665,150,360,154,Pooja Needs,1,3,5,10,2015
+personal13,935,736,139,59,Lip Care,1,1,6,4,2016
+food6,616,681,-45,-19,Noodles,3,2,10,6,2016
+personal11,838,427,287,123,Perfumes,3,2,10,6,2015
+clo7,842,118,506,217,Women T-Shirt,1,1,6,1,2015
+personal4,939,285,457,196,Body Lotion,2,1,3,10,2014
+personal17,789,742,32,14,Cartidges,1,3,6,12,2017
+personal1,920,187,513,219,Shampoo,1,1,6,4,2016
+food8,609,588,14,6,Ketchups,2,2,2,10,2016
+food16,912,369,380,162,Energy Drink,2,1,12,8,2014
+food7,574,465,76,32,Pickels,2,2,12,5,2016
+clo6,816,150,466,199,Women Shirt,1,3,6,1,2017
+food12,647,370,193,83,Soft Drink,2,2,1,2,2018
+personal4,539,183,249,106,Body Lotion,3,2,9,7,2015
+personal2,908,361,382,164,Conditioner,1,1,5,9,2018
+food13,800,236,394,169,Tea,1,1,7,12,2015
+clo6,502,144,250,107,Women Shirt,3,3,11,8,2015
+food5,816,249,396,170,Sweets,2,1,3,11,2016
+personal7,660,448,148,63,ToothBrush,3,3,11,1,2017
+personal8,924,160,534,229,MouthWash,2,2,3,10,2014
+food19,993,579,289,124,Dog Supplies,3,2,9,11,2018
+food19,779,351,299,128,Dog Supplies,1,3,5,4,2014
+personal8,969,438,371,159,MouthWash,1,3,6,9,2017
+personal8,716,620,67,28,MouthWash,1,1,6,9,2014
+personal18,594,243,245,105,Pain Relievers,1,1,6,2,2017
+personal2,619,322,207,89,Conditioner,3,3,8,8,2015
+food12,601,538,44,18,Soft Drink,1,1,4,8,2017
+food4,707,513,135,58,Chocklate,1,1,7,3,2014
+personal2,647,351,207,88,Conditioner,2,2,3,3,2017
+house4,681,717,-25,-10,Pooja Needs,3,3,11,1,2018
+clo3,760,702,40,17,Men Jeans,1,3,6,10,2017
+personal7,575,722,-102,-44,ToothBrush,2,2,12,4,2017
+food14,882,566,221,94,Coffee,1,3,6,9,2016
+personal7,871,154,501,215,ToothBrush,2,1,1,5,2018
+food17,892,322,399,171,Breads Grains,3,2,11,9,2014
+clo10,620,558,43,18,Girls Shirt,2,2,3,6,2018
+clo7,891,677,149,64,Women T-Shirt,3,3,8,10,2017
+personal10,775,131,450,193,Women's Deo,3,3,8,5,2018
+personal10,524,551,-18,-8,Women's Deo,2,2,1,8,2014
+food1,867,382,339,145,Biscuits,2,2,1,2,2018
+personal6,735,449,200,85,ToothPaste,2,1,12,9,2017
+personal11,981,406,402,172,Perfumes,3,3,9,3,2015
+food16,930,408,365,156,Energy Drink,1,3,5,12,2018
+food18,509,131,264,113,Canned Foods,3,2,8,8,2018
+food7,915,285,441,189,Pickels,2,2,12,7,2017
+food5,804,491,219,93,Sweets,2,2,2,1,2016
+personal3,705,338,256,110,Hair Oil,2,2,1,12,2018
+food1,534,212,225,96,Biscuits,1,3,4,9,2017
+personal1,901,697,142,61,Shampoo,3,3,8,1,2016
+food7,547,187,252,108,Pickels,1,1,4,12,2014
+food19,550,494,39,16,Dog Supplies,3,3,10,12,2015
+personal16,556,606,-35,-15,Razors,3,3,9,6,2016
+food9,665,647,12,5,Pasta,3,3,10,7,2016
+personal6,889,164,507,217,ToothPaste,3,2,10,2,2017
+food5,950,739,147,63,Sweets,3,3,10,6,2017
+personal12,685,237,313,134,Face Wash,1,3,6,2,2014
+food8,851,461,273,117,Ketchups,2,2,3,7,2017
+personal2,816,231,409,175,Conditioner,1,1,5,8,2014
+food14,565,639,-51,-22,Coffee,2,2,1,10,2017
+clo5,525,132,275,117,Men Trouser,2,1,12,3,2018
+personal14,947,527,294,126,Sanitary Care,3,3,11,12,2016
+personal1,594,713,-83,-35,Shampoo,2,2,2,1,2017
+food2,795,410,269,115,Namkeen,2,2,1,11,2017
+clo4,714,435,195,83,Boys Shirt,1,1,4,11,2015
+clo5,641,240,280,120,Men Trouser,2,1,1,11,2014
+food7,982,166,571,244,Pickels,1,1,4,7,2016
+food14,758,139,433,185,Coffee,1,1,5,9,2016
+personal18,665,466,139,59,Pain Relievers,2,2,2,4,2016
+personal18,606,494,78,33,Pain Relievers,3,3,10,8,2016
+house3,902,169,513,219,Cleaners,2,1,2,12,2018
+house2,530,573,-30,-12,Dishwashes,2,1,1,5,2017
+food5,679,230,314,134,Sweets,2,1,1,2,2016
+personal7,756,728,19,8,ToothBrush,3,2,8,11,2018
+personal14,872,552,224,96,Sanitary Care,1,1,6,3,2016
+clo8,573,557,11,4,Women Jeans,2,2,3,6,2017
+food20,840,297,380,162,Cat Supplies,1,3,6,6,2018
+house5,831,539,204,87,Tissues & Disposables,3,2,10,3,2018
+clo1,709,112,417,179,Men Shirt,3,3,8,11,2016
+food3,792,512,196,84,Chips,1,3,4,2,2014
+food6,545,514,21,9,Noodles,1,1,5,4,2015
+food14,993,511,337,144,Coffee,3,3,10,6,2014
+personal16,921,528,275,117,Razors,1,1,6,8,2017
+personal11,680,549,91,39,Perfumes,1,1,6,6,2015
+personal12,578,416,113,48,Face Wash,2,2,2,3,2016
+house2,907,619,201,86,Dishwashes,2,1,3,6,2018
+clo6,993,601,274,117,Women Shirt,1,3,6,3,2014
+food19,651,455,137,58,Dog Supplies,1,1,4,4,2015
+clo6,882,341,378,162,Women Shirt,2,2,1,12,2014
+food16,631,520,77,33,Energy Drink,1,3,6,12,2018
+food20,655,610,31,13,Cat Supplies,2,2,12,8,2016
+personal4,776,509,186,80,Body Lotion,1,1,4,12,2014
+clo4,521,360,112,48,Boys Shirt,2,2,2,4,2017
+personal13,874,567,214,92,Lip Care,1,1,5,9,2017
+food18,677,319,250,107,Canned Foods,2,1,3,5,2017
+food19,769,537,162,69,Dog Supplies,1,3,4,8,2018
+food5,921,444,333,143,Sweets,1,1,4,6,2017
+clo5,681,227,317,136,Men Trouser,3,3,10,4,2017
+clo6,826,592,163,70,Women Shirt,3,3,8,11,2017
+personal8,825,533,204,87,MouthWash,2,2,2,5,2018
+personal14,594,301,205,87,Sanitary Care,1,3,6,8,2015
+clo9,637,748,-77,-33,Women Trouser,1,1,4,9,2015
+personal1,871,316,388,166,Shampoo,1,1,7,12,2017
+personal9,686,153,373,159,Men's Deo,1,1,6,1,2015
+clo10,957,487,329,141,Girls Shirt,3,2,11,11,2018
+food10,589,525,44,19,Candy,1,1,5,9,2016
+food20,548,452,67,28,Cat Supplies,1,1,7,9,2018
+food4,666,205,322,138,Chocklate,3,3,10,9,2015
+clo9,978,499,335,143,Women Trouser,3,3,9,12,2016
+clo5,670,745,-52,-22,Men Trouser,2,1,2,7,2014
+food15,899,133,536,229,Milk Drink,2,2,12,5,2018
+personal12,724,263,322,138,Face Wash,3,3,11,1,2015
+personal15,601,675,-51,-22,Hand Wash,3,3,10,9,2014
+house1,663,460,142,60,Laundry Detergents,1,3,6,9,2015
+personal16,924,297,438,188,Razors,3,2,10,3,2015
+food12,701,459,169,72,Soft Drink,3,3,9,6,2016
+food17,755,403,246,105,Breads Grains,3,3,10,8,2014
+food8,990,285,493,211,Ketchups,1,1,4,2,2018
+food14,805,241,394,169,Coffee,3,2,8,7,2014
+personal5,621,504,81,35,Face Cream,1,3,4,10,2015
+food12,713,348,255,109,Soft Drink,1,3,7,3,2014
+food3,709,111,418,179,Chips,1,1,5,11,2017
+food5,521,655,-93,-40,Sweets,2,2,2,3,2016
+house1,512,629,-81,-35,Laundry Detergents,2,2,12,12,2014
+food20,589,118,329,141,Cat Supplies,1,1,4,7,2018
+food13,871,350,364,156,Tea,1,3,5,5,2016
+food5,584,119,325,139,Sweets,1,3,6,8,2014
+house2,539,703,-114,-49,Dishwashes,1,3,5,12,2018
+food5,852,667,129,55,Sweets,3,2,9,6,2018
+food17,907,104,562,240,Breads Grains,2,1,1,2,2015
+clo1,696,693,2,0,Men Shirt,2,2,2,6,2016
+clo2,561,692,-91,-39,Men T-Shirt,3,2,10,6,2017
+personal10,569,311,180,77,Women's Deo,3,3,8,6,2015
+personal4,903,294,426,182,Body Lotion,1,3,4,1,2014
+food15,835,585,175,75,Milk Drink,2,2,3,12,2017
+food15,854,231,436,186,Milk Drink,2,1,3,8,2018
+clo6,995,399,417,178,Women Shirt,2,2,12,3,2016
+house5,733,218,360,154,Tissues & Disposables,2,2,1,2,2015
+personal12,704,257,312,134,Face Wash,3,3,8,3,2016
+personal4,923,695,159,68,Body Lotion,2,2,3,9,2018
+personal4,830,566,184,79,Body Lotion,2,1,3,4,2018
+personal3,845,523,225,96,Hair Oil,1,3,4,11,2018
+personal1,836,179,459,197,Shampoo,3,3,11,12,2014
+clo5,803,308,346,148,Men Trouser,1,1,4,7,2017
+personal10,631,102,370,158,Women's Deo,2,1,1,11,2014
+food14,995,562,303,129,Coffee,2,1,2,1,2016
+food7,944,703,168,72,Pickels,1,1,7,1,2016
+personal7,811,585,158,67,ToothBrush,1,3,5,7,2017
+house4,977,663,219,94,Pooja Needs,1,3,4,1,2018
+food6,840,529,217,93,Noodles,3,2,10,2,2017
+personal5,902,563,237,101,Face Cream,3,3,8,7,2015
+food17,589,122,326,140,Breads Grains,3,2,11,12,2014
+personal2,796,284,358,153,Conditioner,3,3,11,2,2016
+food13,884,298,410,175,Tea,3,3,10,12,2015
+food2,792,658,93,40,Namkeen,3,3,9,4,2017
+house3,632,647,-10,-4,Cleaners,1,3,4,8,2016
+food10,997,119,614,263,Candy,2,1,12,1,2017
+clo3,991,648,240,102,Men Jeans,2,2,12,1,2015
+personal13,775,284,343,147,Lip Care,1,3,5,8,2018
+food16,724,570,107,46,Energy Drink,2,2,1,12,2014
+personal18,720,652,47,20,Pain Relievers,2,2,12,11,2018
+personal5,601,528,51,21,Face Cream,3,2,10,2,2016
+personal14,613,737,-86,-37,Sanitary Care,1,1,6,1,2016
+personal6,628,105,366,156,ToothPaste,2,2,2,12,2017
+personal14,624,142,337,144,Sanitary Care,3,2,8,6,2017
+food4,585,368,151,65,Chocklate,1,1,4,9,2015
+food16,896,422,331,142,Energy Drink,1,3,5,6,2016
+personal12,981,601,266,114,Face Wash,1,1,5,10,2018
+food11,960,423,375,161,Frozen Foods,3,2,11,7,2016
+food1,919,322,417,179,Biscuits,3,2,9,8,2017
+food12,879,379,350,150,Soft Drink,1,3,7,9,2018
+personal8,854,116,516,221,MouthWash,2,2,2,5,2015
+food13,768,283,339,145,Tea,1,3,6,9,2014
+house3,556,229,228,98,Cleaners,3,3,10,6,2018
+personal13,503,119,268,115,Lip Care,3,3,8,5,2015
+food13,628,434,135,58,Tea,2,2,12,4,2016
+food14,863,290,401,171,Coffee,3,3,8,11,2017
+food10,712,495,151,65,Candy,3,3,8,10,2014
+personal1,870,553,221,95,Shampoo,3,3,10,12,2017
+food11,621,509,78,33,Frozen Foods,1,3,7,4,2016
+food3,691,512,125,53,Chips,1,3,6,6,2018
+personal6,524,344,126,54,ToothPaste,1,3,4,11,2014
+clo7,707,312,276,118,Women T-Shirt,3,3,8,11,2015
+food12,669,641,19,8,Soft Drink,3,3,9,4,2014
+clo2,786,258,369,158,Men T-Shirt,1,3,4,5,2018
+personal16,547,712,-115,-49,Razors,1,3,7,9,2015
+personal3,569,517,36,15,Hair Oil,3,3,11,5,2017
+food10,842,358,338,145,Candy,3,3,10,5,2017
+clo5,704,272,302,129,Men Trouser,3,2,9,4,2017
+personal5,871,562,216,92,Face Cream,1,1,7,9,2015
+food3,509,121,271,116,Chips,2,1,3,2,2014
+personal6,726,730,-2,-1,ToothPaste,2,1,12,3,2016
+personal9,533,608,-52,-22,Men's Deo,3,3,9,2,2016
+food19,579,506,51,21,Dog Supplies,1,1,4,4,2016
+clo5,702,466,165,70,Men Trouser,3,3,11,8,2017
+clo10,940,115,577,247,Girls Shirt,1,3,4,2,2014
+house5,502,581,-55,-23,Tissues & Disposables,3,3,10,8,2016
+food5,758,608,105,45,Sweets,1,3,7,8,2016
+clo1,827,254,401,171,Men Shirt,2,2,2,10,2018
+food2,796,749,32,14,Namkeen,2,1,2,12,2017
+food12,803,243,392,168,Soft Drink,2,1,3,4,2016
+food8,916,210,494,211,Ketchups,1,1,6,11,2014
+personal8,627,545,57,24,MouthWash,1,3,6,6,2017
+personal18,962,202,532,228,Pain Relievers,1,1,5,4,2017
+house2,961,224,515,221,Dishwashes,3,3,9,1,2018
+food2,526,255,189,81,Namkeen,2,2,12,4,2017
+food18,790,680,77,33,Canned Foods,3,2,8,5,2015
+clo2,574,695,-84,-36,Men T-Shirt,2,2,12,4,2018
+personal6,779,493,200,85,ToothPaste,2,2,2,2,2015
+personal6,583,215,257,110,ToothPaste,3,3,10,5,2015
+food20,846,708,96,41,Cat Supplies,1,1,5,10,2018
+personal10,515,133,267,114,Women's Deo,1,3,4,4,2018
+personal7,670,671,0,0,ToothBrush,1,3,4,1,2014
+personal6,583,226,249,107,ToothPaste,3,2,8,8,2017
+house4,505,392,79,33,Pooja Needs,3,2,11,6,2016
+personal15,884,666,152,65,Hand Wash,2,1,12,9,2016
+clo3,552,275,193,83,Men Jeans,3,3,8,11,2017
+personal12,670,156,359,154,Face Wash,2,2,3,2,2016
+house4,817,337,336,144,Pooja Needs,1,3,5,2,2015
+personal18,899,235,464,199,Pain Relievers,3,3,9,4,2017
+personal17,739,181,390,167,Cartidges,2,1,2,5,2016
+house5,533,199,233,100,Tissues & Disposables,1,3,6,4,2014
+clo8,956,329,438,188,Women Jeans,3,2,10,4,2017
+food15,524,647,-86,-36,Milk Drink,3,2,8,12,2017
+food13,666,133,373,159,Tea,1,1,4,3,2017
+food13,684,425,181,77,Tea,2,1,12,11,2014
+clo6,604,652,-33,-14,Women Shirt,1,1,6,1,2017
+food6,849,291,390,167,Noodles,2,2,12,1,2018
+house2,779,701,54,23,Dishwashes,3,3,11,5,2014
+clo5,868,358,357,153,Men Trouser,1,3,5,1,2017
+food10,966,110,599,256,Candy,1,1,5,7,2014
+personal14,854,140,499,214,Sanitary Care,1,1,6,9,2015
+personal10,657,408,174,74,Women's Deo,2,1,12,3,2017
+personal2,702,672,21,9,Conditioner,1,1,6,3,2014
+clo5,643,477,116,49,Men Trouser,2,2,1,3,2017
+clo3,952,255,487,209,Men Jeans,3,3,8,12,2015
+house3,797,335,323,138,Cleaners,3,3,10,8,2015
+personal15,920,310,427,183,Hand Wash,1,3,5,5,2017
+clo1,674,124,385,165,Men Shirt,1,3,5,5,2016
+personal5,823,588,164,70,Face Cream,3,3,11,6,2018
+personal3,650,657,-4,-2,Hair Oil,1,3,7,12,2014
+food12,870,304,396,169,Soft Drink,1,1,5,8,2015
+clo10,686,120,396,169,Girls Shirt,2,1,3,3,2016
+food4,726,582,100,43,Chocklate,2,1,1,11,2016
+food20,578,425,107,45,Cat Supplies,3,3,10,9,2014
+personal11,729,104,437,187,Perfumes,1,1,6,10,2015
+personal8,643,177,326,139,MouthWash,1,3,6,11,2018
+personal2,524,321,142,60,Conditioner,2,1,3,9,2017
+food16,727,515,148,63,Energy Drink,3,3,10,1,2014
+personal1,566,191,262,112,Shampoo,3,3,10,3,2016
+personal9,712,443,188,80,Men's Deo,3,2,11,9,2016
+food14,894,599,206,88,Coffee,1,1,6,11,2016
+food1,872,151,504,216,Biscuits,1,3,7,11,2018
+food15,563,143,294,126,Milk Drink,3,2,10,6,2016
+food2,913,382,371,159,Namkeen,1,3,6,10,2017
+food11,891,551,238,102,Frozen Foods,1,3,6,9,2014
+food6,628,743,-80,-34,Noodles,3,3,9,9,2016
+personal10,984,465,363,155,Women's Deo,2,2,1,6,2014
+personal11,903,187,501,214,Perfumes,2,2,2,12,2014
+food2,580,290,203,87,Namkeen,3,3,10,9,2016
+house1,759,183,403,172,Laundry Detergents,2,2,1,3,2018
+house4,722,697,17,7,Pooja Needs,2,2,3,7,2016
+personal15,629,170,321,137,Hand Wash,3,2,9,6,2017
+food18,749,743,4,1,Canned Foods,3,3,8,8,2017
+food8,624,608,11,4,Ketchups,1,3,4,3,2017
+house4,875,169,494,211,Pooja Needs,3,2,9,11,2015
+food14,506,160,242,103,Coffee,1,3,4,8,2018
+clo6,796,180,431,184,Women Shirt,3,3,10,10,2015
+personal7,974,646,229,98,ToothBrush,1,3,7,5,2015
+house2,927,529,278,119,Dishwashes,1,1,4,3,2014
+house3,523,389,93,40,Cleaners,3,2,11,4,2014
+personal17,796,395,280,120,Cartidges,2,1,3,9,2016
+clo2,692,234,320,137,Men T-Shirt,1,1,7,4,2015
+food9,878,231,452,194,Pasta,1,3,6,1,2017
+personal2,565,392,121,51,Conditioner,1,1,7,5,2015
+personal15,899,386,359,153,Hand Wash,1,1,4,4,2015
+personal16,652,306,242,103,Razors,1,1,7,3,2018
+personal17,540,291,174,74,Cartidges,2,2,2,9,2017
+personal3,720,676,30,13,Hair Oil,1,3,6,2,2017
+personal17,869,237,442,189,Cartidges,3,2,8,1,2015
+personal5,534,223,217,93,Face Cream,1,3,7,11,2015
+clo4,500,195,213,91,Boys Shirt,3,3,11,8,2014
+personal3,582,364,152,65,Hair Oil,3,3,8,2,2017
+house1,786,573,149,63,Laundry Detergents,3,2,11,1,2014
+food2,650,604,32,13,Namkeen,2,1,2,12,2017
+clo10,515,185,231,99,Girls Shirt,1,1,4,10,2014
+house4,508,749,-168,-72,Pooja Needs,2,1,12,4,2018
+food8,740,378,253,108,Ketchups,2,2,12,6,2014
+food16,788,424,254,109,Energy Drink,2,2,2,2,2018
+house1,856,203,457,195,Laundry Detergents,1,3,7,12,2014
+clo3,848,663,129,55,Men Jeans,2,2,3,2,2016
+food6,947,382,395,169,Noodles,2,2,2,1,2014
+personal13,747,303,310,133,Lip Care,1,3,6,11,2018
+house5,817,580,165,71,Tissues & Disposables,3,2,10,2,2018
+personal16,605,103,351,150,Razors,1,3,7,12,2018
+clo10,764,147,431,185,Girls Shirt,2,1,1,5,2016
+personal8,696,566,91,39,MouthWash,2,2,1,4,2018
+clo3,605,716,-77,-33,Men Jeans,3,3,11,3,2015
+clo5,975,120,598,256,Men Trouser,3,3,11,5,2017
+food5,864,437,298,128,Sweets,1,3,4,7,2016
+food4,908,691,151,65,Chocklate,2,2,1,4,2017
+food11,960,734,158,67,Frozen Foods,1,1,5,10,2015
+food13,642,318,226,97,Tea,3,3,9,8,2014
+personal3,998,510,341,146,Hair Oil,2,1,1,6,2018
+food14,623,474,104,44,Coffee,1,3,4,2,2017
+house4,618,336,197,84,Pooja Needs,1,1,4,12,2016
+food19,802,339,324,138,Dog Supplies,2,2,2,11,2015
+personal11,808,685,86,36,Perfumes,2,1,2,4,2016
+house2,854,640,149,64,Dishwashes,3,2,10,1,2018
+house1,553,177,263,112,Laundry Detergents,2,2,12,1,2015
+food10,923,123,560,240,Candy,1,1,6,9,2014
+food20,676,669,4,2,Cat Supplies,1,1,5,12,2017
+personal18,822,655,116,50,Pain Relievers,2,2,12,7,2014
+house5,996,744,176,75,Tissues & Disposables,2,1,1,12,2014
+food4,632,157,332,142,Chocklate,3,3,8,4,2016
+food20,526,353,121,51,Cat Supplies,2,2,12,1,2017
+house4,781,727,37,16,Pooja Needs,1,3,5,1,2017
+personal18,554,296,180,77,Pain Relievers,3,2,9,7,2017
+clo9,773,421,246,105,Women Trouser,1,3,4,5,2017
+food15,769,700,48,20,Milk Drink,2,1,1,2,2017
+personal18,661,619,29,12,Pain Relievers,3,2,10,4,2017
+clo3,845,687,110,47,Men Jeans,2,2,12,10,2017
+personal12,937,253,478,205,Face Wash,3,3,11,1,2014
+house3,637,189,313,134,Cleaners,2,2,2,11,2014
+personal5,620,290,231,99,Face Cream,2,2,12,1,2018
+food5,510,744,-163,-70,Sweets,2,2,2,6,2017
+food7,608,186,295,126,Pickels,1,1,7,3,2018
+clo4,653,493,112,48,Boys Shirt,3,3,10,11,2016
+personal3,750,369,266,114,Hair Oil,1,3,6,5,2017
+food16,613,362,175,75,Energy Drink,1,3,6,4,2017
+food12,654,440,149,64,Soft Drink,1,1,4,7,2017
+house1,796,627,118,50,Laundry Detergents,2,1,3,6,2018
+personal2,805,546,181,77,Conditioner,2,2,2,10,2017
+clo1,842,542,210,90,Men Shirt,1,1,5,7,2015
+clo8,604,417,130,56,Women Jeans,2,1,12,12,2017
+food9,985,498,340,146,Pasta,1,3,5,3,2018
+personal5,683,509,121,52,Face Cream,2,1,2,3,2014
+clo3,900,455,311,133,Men Jeans,3,2,10,2,2016
+food19,719,233,340,145,Dog Supplies,1,3,5,7,2014
+personal7,713,482,161,69,ToothBrush,2,2,2,6,2018
+food10,682,671,7,3,Candy,3,3,10,10,2016
+food14,860,165,486,208,Coffee,2,2,12,8,2016
+food6,897,512,269,115,Noodles,2,2,1,7,2015
+personal17,750,557,135,57,Cartidges,3,2,10,9,2015
+clo10,590,600,-7,-3,Girls Shirt,1,1,6,11,2014
+food12,902,324,404,173,Soft Drink,3,2,11,10,2018
+food19,799,136,464,198,Dog Supplies,2,1,3,6,2014
+house3,955,437,362,155,Cleaners,1,1,7,8,2018
+personal6,653,649,2,1,ToothPaste,1,3,5,1,2018
+food11,938,588,245,105,Frozen Foods,2,2,12,8,2014
+food4,909,468,308,132,Chocklate,1,1,5,9,2016
+personal17,631,546,59,25,Cartidges,3,3,10,12,2014
+food10,661,192,328,140,Candy,2,2,12,7,2018
+personal7,565,716,-105,-45,ToothBrush,3,3,9,1,2015
+personal15,651,527,86,37,Hand Wash,3,3,8,7,2015
+personal6,767,226,378,162,ToothPaste,3,2,9,6,2017
+clo1,811,699,78,33,Men Shirt,1,3,4,8,2018
+personal18,516,385,91,39,Pain Relievers,2,1,1,12,2016
+clo1,872,378,345,148,Men Shirt,1,3,7,2,2015
+clo4,942,489,317,135,Boys Shirt,1,1,7,7,2017
+personal5,578,514,44,19,Face Cream,3,3,9,10,2018
+personal7,572,393,125,53,ToothBrush,1,3,4,1,2014
+personal2,712,213,349,149,Conditioner,3,3,8,4,2015
+personal5,702,158,380,163,Face Cream,3,2,10,4,2018
+food5,894,131,534,228,Sweets,2,1,12,5,2014
+personal14,763,250,359,153,Sanitary Care,3,3,8,8,2017
+clo10,737,514,156,66,Girls Shirt,3,3,9,3,2016
+food17,923,295,439,188,Breads Grains,2,2,12,9,2018
+personal2,568,417,105,45,Conditioner,1,1,6,2,2015
+personal14,607,450,109,47,Sanitary Care,3,2,9,10,2016
+food7,969,505,324,139,Pickels,3,2,8,6,2015
+clo10,765,240,367,157,Girls Shirt,2,1,2,1,2017
+personal1,615,266,244,104,Shampoo,1,1,7,4,2017
+personal17,908,130,544,233,Cartidges,1,1,6,1,2017
+personal18,588,295,205,87,Pain Relievers,2,2,3,4,2014
+clo7,623,743,-84,-36,Women T-Shirt,3,3,8,2,2017
+clo1,599,193,284,121,Men Shirt,2,2,3,11,2017
+personal17,703,256,312,134,Cartidges,3,3,8,4,2016
+personal5,741,631,77,33,Face Cream,1,1,5,10,2018
+personal15,977,398,405,173,Hand Wash,2,1,12,10,2014
+house1,966,167,559,239,Laundry Detergents,2,2,12,10,2018
+personal8,537,433,72,31,MouthWash,1,1,4,6,2016
+personal4,618,698,-56,-24,Body Lotion,2,2,2,3,2016
+clo7,957,289,467,200,Women T-Shirt,2,1,12,12,2018
+personal13,785,463,225,96,Lip Care,1,1,4,9,2017
+food14,612,647,-24,-10,Coffee,3,3,10,12,2017
+food9,945,700,171,73,Pasta,1,3,5,12,2016
+personal11,956,574,267,114,Perfumes,3,3,10,6,2016
+clo4,823,151,470,201,Boys Shirt,1,1,6,7,2018
+food18,921,707,149,64,Canned Foods,3,2,11,10,2014
+food14,732,726,4,1,Coffee,2,1,1,2,2016
+food17,675,180,346,148,Breads Grains,2,1,12,10,2014
+food17,787,748,27,11,Breads Grains,3,2,9,2,2017
+clo10,821,647,121,52,Girls Shirt,3,3,8,4,2017
+personal7,878,452,298,127,ToothBrush,1,1,5,9,2018
+food13,954,127,578,248,Tea,3,3,8,3,2017
+personal8,673,189,338,145,MouthWash,1,3,4,2,2018
+food9,829,480,244,104,Pasta,1,3,5,6,2016
+house4,946,381,395,169,Pooja Needs,3,2,11,1,2017
+personal18,805,328,333,143,Pain Relievers,1,1,5,9,2016
+personal10,524,626,-71,-30,Women's Deo,2,1,12,4,2014
+food20,683,690,-4,-2,Cat Supplies,3,3,10,10,2017
+personal8,812,730,57,24,MouthWash,2,1,12,2,2018
+personal14,518,413,73,31,Sanitary Care,2,1,1,8,2016
+food2,811,239,400,171,Namkeen,2,2,3,11,2016
+food20,693,156,375,161,Cat Supplies,1,3,6,4,2016
+food1,709,154,388,166,Biscuits,3,2,8,4,2015
+house4,616,446,119,51,Pooja Needs,3,3,11,6,2018
+personal5,891,109,547,234,Face Cream,1,3,4,9,2017
+personal8,960,283,473,203,MouthWash,3,3,10,5,2016
+food12,764,214,385,165,Soft Drink,3,3,9,2,2017
+food4,683,296,270,116,Chocklate,1,1,6,10,2014
+food3,660,127,373,159,Chips,3,3,8,7,2015
+personal5,972,359,429,183,Face Cream,1,1,5,2,2015
+food8,801,348,317,135,Ketchups,3,2,9,2,2018
+food5,615,597,12,5,Sweets,3,3,9,7,2018
+personal17,600,506,65,28,Cartidges,2,1,1,11,2017
+clo7,634,217,291,125,Women T-Shirt,3,2,10,1,2018
+house3,608,375,163,69,Cleaners,2,1,3,7,2016
+food9,724,389,234,100,Pasta,1,1,7,5,2017
+food20,681,333,243,104,Cat Supplies,3,2,9,2,2017
+personal4,759,387,260,111,Body Lotion,3,2,10,4,2017
+food14,852,185,466,200,Coffee,3,2,10,8,2018
+personal11,915,217,488,209,Perfumes,2,1,1,5,2017
+personal17,725,541,128,55,Cartidges,2,2,1,9,2017
+food5,510,240,189,81,Sweets,1,3,5,12,2015
+personal16,749,582,116,50,Razors,2,2,3,8,2014
+house1,795,486,216,92,Laundry Detergents,2,2,2,4,2018
+clo1,726,228,348,149,Men Shirt,1,1,4,9,2018
+food13,952,412,378,162,Tea,2,1,1,8,2015
+personal1,951,536,290,124,Shampoo,1,3,6,1,2016
+house4,596,363,163,69,Pooja Needs,1,1,4,4,2018
+personal9,545,633,-61,-26,Men's Deo,2,2,12,6,2017
+personal17,762,461,210,90,Cartidges,2,2,2,1,2016
+personal12,669,340,230,98,Face Wash,3,3,8,12,2014
+personal11,576,531,31,13,Perfumes,1,3,7,2,2014
+food20,919,333,410,175,Cat Supplies,2,1,12,7,2016
+personal3,813,478,234,100,Hair Oil,1,1,6,1,2018
+food6,514,177,235,101,Noodles,1,1,4,2,2017
+clo8,995,286,496,212,Women Jeans,3,2,11,5,2017
+house1,551,494,39,17,Laundry Detergents,1,1,4,7,2016
+clo1,510,529,-13,-5,Men Shirt,3,3,8,7,2015
+personal16,728,428,210,90,Razors,2,1,1,4,2017
+clo5,642,690,-33,-14,Men Trouser,3,3,8,9,2015
+personal18,579,154,297,127,Pain Relievers,1,1,4,4,2018
+food9,818,303,360,154,Pasta,2,2,12,7,2017
+personal9,731,209,365,156,Men's Deo,3,3,8,12,2016
+food13,940,522,292,125,Tea,2,1,1,1,2016
+personal18,884,369,360,154,Pain Relievers,2,2,1,4,2017
+house2,652,101,385,165,Dishwashes,3,3,11,12,2016
+personal14,547,298,174,74,Sanitary Care,2,1,3,7,2015
+personal8,849,249,420,180,MouthWash,2,2,12,4,2017
+food7,743,676,46,20,Pickels,3,3,9,1,2017
+food5,838,700,96,41,Sweets,2,1,3,3,2017
+food8,816,317,349,149,Ketchups,3,3,11,6,2016
+personal8,887,220,466,200,MouthWash,1,1,4,3,2018
+food16,926,323,422,180,Energy Drink,1,3,4,7,2016
+food11,636,570,46,19,Frozen Foods,3,3,8,12,2016
+food19,652,726,-51,-22,Dog Supplies,2,2,2,6,2016
+clo5,858,487,259,111,Men Trouser,3,3,9,11,2016
+clo1,863,393,329,141,Men Shirt,2,2,3,12,2018
+food19,860,175,479,205,Dog Supplies,3,3,9,10,2014
+food12,983,659,226,97,Soft Drink,2,1,3,2,2016
+food20,557,601,-30,-13,Cat Supplies,1,3,5,11,2018
+food17,842,384,320,137,Breads Grains,3,3,10,7,2017
+food6,818,100,502,215,Noodles,2,2,1,11,2017
+personal15,501,124,263,113,Hand Wash,3,3,8,2,2016
+personal9,859,521,236,101,Men's Deo,2,2,2,3,2015
+food14,796,648,103,44,Coffee,3,3,9,12,2016
+personal10,762,622,98,42,Women's Deo,2,2,1,6,2016
+food1,536,524,8,3,Biscuits,2,2,3,5,2014
+clo5,606,128,334,143,Men Trouser,1,1,5,2,2015
+food11,652,683,-21,-9,Frozen Foods,1,1,4,1,2014
+personal18,848,426,295,126,Pain Relievers,2,2,1,2,2014
+food20,712,556,109,46,Cat Supplies,1,3,5,6,2016
+house5,986,274,498,213,Tissues & Disposables,3,3,9,9,2018
+clo3,738,570,117,50,Men Jeans,3,3,11,1,2017
+clo5,603,383,154,66,Men Trouser,2,2,2,11,2014
+personal1,538,135,282,120,Shampoo,1,3,6,9,2017
+personal15,956,247,496,212,Hand Wash,3,3,10,10,2018
+house1,586,420,116,49,Laundry Detergents,1,1,4,6,2018
+personal2,644,395,174,74,Conditioner,3,3,9,3,2014
+food18,750,205,381,163,Canned Foods,3,3,8,1,2018
+personal18,773,376,277,119,Pain Relievers,2,1,2,4,2018
+food7,913,219,485,208,Pickels,2,1,12,8,2015
+food16,555,195,252,108,Energy Drink,3,3,11,12,2017
+personal12,521,218,212,90,Face Wash,2,1,2,1,2014
+clo9,897,207,483,207,Women Trouser,2,2,1,12,2018
+clo10,872,195,473,203,Girls Shirt,3,3,11,1,2015
+food17,566,378,131,56,Breads Grains,1,3,7,6,2016
+food8,895,141,527,226,Ketchups,1,1,4,10,2018
+food3,676,672,2,1,Chips,1,1,5,1,2016
+clo9,552,573,-14,-6,Women Trouser,2,1,12,2,2015
+house3,573,573,0,0,Cleaners,2,1,12,3,2015
+food5,718,708,7,3,Sweets,1,3,6,7,2018
+food3,651,578,51,21,Chips,2,2,3,7,2015
+house3,688,277,287,123,Cleaners,2,2,12,6,2016
+food10,710,183,368,158,Candy,1,1,6,11,2016
+food11,508,394,79,34,Frozen Foods,2,2,1,8,2015
+food13,539,343,137,58,Tea,1,1,7,7,2018
+food8,887,675,148,63,Ketchups,1,3,7,10,2014
+clo6,791,642,104,44,Women Shirt,3,3,10,11,2017
+personal14,988,314,471,202,Sanitary Care,3,3,11,12,2018
+food19,765,457,215,92,Dog Supplies,1,3,4,6,2014
+food5,832,596,165,70,Sweets,3,2,9,6,2015
+house2,707,656,35,15,Dishwashes,1,1,7,9,2014
+food6,912,219,485,207,Noodles,3,2,11,6,2016
+personal7,823,288,374,160,ToothBrush,3,3,10,2,2017
+house3,982,349,443,189,Cleaners,1,1,4,12,2017
+house2,753,685,47,20,Dishwashes,3,3,10,4,2015
+clo3,555,218,235,101,Men Jeans,2,2,1,3,2015
+food3,869,612,179,77,Chips,2,2,3,7,2016
+personal16,589,199,273,117,Razors,2,2,1,7,2018
+house1,956,351,423,181,Laundry Detergents,1,3,7,6,2015
+personal1,910,480,301,129,Shampoo,1,1,5,8,2014
+clo6,552,442,77,33,Women Shirt,1,1,6,11,2018
+food2,540,735,-136,-58,Namkeen,2,1,3,1,2016
+food7,942,353,412,176,Pickels,1,3,6,8,2017
+personal4,996,225,539,231,Body Lotion,2,1,2,2,2017
+food2,680,368,218,93,Namkeen,1,3,6,8,2015
+personal17,842,505,235,101,Cartidges,2,1,3,3,2014
+food11,593,536,39,17,Frozen Foods,1,3,7,2,2016
+food3,979,632,242,104,Chips,1,1,4,4,2016
+food6,695,636,41,17,Noodles,1,1,4,4,2014
+food15,811,691,84,36,Milk Drink,2,2,12,11,2016
+personal14,594,461,93,39,Sanitary Care,2,2,12,6,2015
+food8,957,662,206,88,Ketchups,3,3,10,11,2015
+personal16,588,627,-27,-11,Razors,3,3,10,3,2014
+food2,997,164,583,249,Namkeen,1,3,5,5,2018
+clo1,663,405,180,77,Men Shirt,1,3,6,12,2014
+personal8,691,575,81,34,MouthWash,2,1,3,11,2016
+food3,554,521,23,9,Chips,3,3,11,1,2016
+food11,729,201,369,158,Frozen Foods,1,1,4,3,2017
+personal5,545,519,18,7,Face Cream,1,3,6,8,2016
+house3,698,697,0,0,Cleaners,3,2,8,9,2018
+personal16,824,625,139,59,Razors,3,3,9,11,2017
+personal14,624,420,142,61,Sanitary Care,2,2,12,8,2015
+personal4,541,232,216,92,Body Lotion,3,2,10,10,2017
+clo7,722,313,286,122,Women T-Shirt,2,2,12,2,2017
+personal7,803,634,118,50,ToothBrush,2,1,12,3,2017
+clo4,708,270,306,131,Boys Shirt,1,1,4,7,2014
+personal10,583,166,291,125,Women's Deo,3,2,11,5,2014
+clo2,599,328,189,81,Men T-Shirt,3,2,11,3,2014
+house5,586,460,88,37,Tissues & Disposables,2,2,1,10,2016
+personal12,774,359,290,124,Face Wash,2,1,12,10,2017
+food14,770,679,63,27,Coffee,3,3,8,3,2017
+personal4,661,215,312,133,Body Lotion,3,2,11,1,2016
+personal9,860,297,394,168,Men's Deo,3,3,9,9,2017
+personal6,735,371,254,109,ToothPaste,3,2,9,2,2015
+personal5,661,354,214,92,Face Cream,1,1,5,7,2014
+food6,529,362,116,50,Noodles,1,1,6,10,2016
+food14,547,134,289,123,Coffee,1,1,4,3,2016
+house1,974,610,254,109,Laundry Detergents,2,1,12,10,2014
+personal3,986,210,543,232,Hair Oil,1,3,4,3,2014
+food2,698,362,235,100,Namkeen,1,3,6,3,2014
+personal12,605,464,98,42,Face Wash,2,2,12,6,2017
+food4,547,186,252,108,Chocklate,2,2,3,7,2015
+food7,691,232,321,137,Pickels,1,1,4,11,2014
+house1,545,313,162,69,Laundry Detergents,1,1,4,9,2014
+personal5,502,239,184,78,Face Cream,3,2,9,8,2015
+food11,764,611,107,45,Frozen Foods,3,3,9,11,2015
+food1,906,106,560,240,Biscuits,1,3,6,10,2015
+clo4,918,445,331,141,Boys Shirt,2,1,3,4,2018
+food8,580,510,49,21,Ketchups,3,3,9,9,2014
+house1,817,431,270,115,Laundry Detergents,2,2,3,3,2018
+clo8,783,319,324,139,Women Jeans,1,1,4,6,2014
+house1,903,102,560,240,Laundry Detergents,1,3,7,10,2016
+food18,662,744,-57,-24,Canned Foods,1,1,5,3,2018
+food1,760,272,341,146,Biscuits,1,3,6,8,2014
+food19,965,727,166,71,Dog Supplies,3,2,10,9,2018
+house1,891,336,388,166,Laundry Detergents,3,2,10,3,2017
+food19,783,356,298,128,Dog Supplies,3,3,9,12,2015
+personal4,972,167,563,241,Body Lotion,1,1,6,8,2016
+food8,753,586,116,50,Ketchups,1,3,4,2,2016
+house1,682,522,112,48,Laundry Detergents,2,1,2,6,2017
+house4,796,519,193,83,Pooja Needs,1,3,6,3,2017
+personal3,551,327,156,67,Hair Oil,3,2,8,1,2015
+personal2,541,595,-37,-16,Conditioner,2,1,3,8,2016
+food18,538,502,25,10,Canned Foods,3,2,10,6,2014
+food15,934,310,436,187,Milk Drink,1,1,5,1,2014
+personal10,923,292,441,189,Women's Deo,3,2,11,2,2015
+personal9,529,368,112,48,Men's Deo,2,1,12,4,2016
+personal1,582,593,-7,-3,Shampoo,1,3,4,3,2016
+clo1,977,722,178,76,Men Shirt,3,2,8,6,2018
+food17,600,604,-2,-1,Breads Grains,2,2,1,7,2015
+personal11,907,353,387,166,Perfumes,3,3,11,7,2018
+food13,983,708,192,82,Tea,2,2,12,4,2014
+food5,574,678,-72,-31,Sweets,1,1,5,5,2015
+personal7,504,212,204,87,ToothBrush,2,2,1,12,2017
+personal5,921,507,289,124,Face Cream,3,2,11,7,2014
+food7,924,570,247,106,Pickels,2,2,12,12,2015
+personal8,632,374,180,77,MouthWash,1,3,6,8,2017
+food8,706,309,277,119,Ketchups,1,1,6,10,2014
+personal15,701,605,67,28,Hand Wash,2,1,1,3,2018
+house3,790,750,28,12,Cleaners,2,1,1,1,2014
+personal16,848,205,450,192,Razors,2,1,1,8,2016
+house2,678,318,252,108,Dishwashes,1,1,6,11,2014
+food1,977,440,375,161,Biscuits,3,2,10,2,2014
+clo2,678,152,368,157,Men T-Shirt,3,2,10,6,2018
+clo6,901,152,524,224,Women Shirt,1,1,4,4,2016
+clo10,913,181,512,219,Girls Shirt,2,1,1,9,2018
+personal15,528,531,-2,0,Hand Wash,1,1,4,10,2015
+house1,552,261,203,87,Laundry Detergents,3,2,10,4,2017
+food10,672,293,265,113,Candy,3,3,10,7,2016
+food17,820,712,75,32,Breads Grains,2,2,2,3,2017
+food17,996,341,458,196,Breads Grains,3,3,8,4,2015
+personal14,525,174,245,105,Sanitary Care,1,3,7,1,2014
+personal10,599,321,194,83,Women's Deo,2,2,2,3,2015
+clo8,976,277,489,209,Women Jeans,1,1,7,4,2018
+food4,741,115,438,187,Chocklate,1,1,5,7,2018
+house5,922,313,426,182,Tissues & Disposables,2,1,12,4,2016
+house4,994,629,255,109,Pooja Needs,1,1,4,2,2014
+food15,900,384,361,154,Milk Drink,1,3,5,12,2018
+clo8,916,546,259,111,Women Jeans,3,3,8,6,2018
+personal12,647,684,-25,-11,Face Wash,1,3,5,4,2018
+personal3,522,103,293,125,Hair Oil,3,2,9,10,2014
+food12,882,602,196,84,Soft Drink,2,2,3,4,2018
+house2,592,237,248,106,Dishwashes,1,3,5,5,2016
+food4,843,434,286,122,Chocklate,1,1,6,3,2018
+food4,946,696,175,75,Chocklate,1,1,7,10,2018
+food14,720,108,428,183,Coffee,1,3,7,4,2014
+personal3,920,377,380,162,Hair Oil,1,1,6,12,2016
+food13,675,261,289,124,Tea,1,1,7,4,2014
+food1,774,308,326,139,Biscuits,3,3,10,6,2016
+food6,917,145,540,231,Noodles,1,1,5,6,2014
+food3,667,273,275,118,Chips,3,3,11,6,2017
+food6,533,444,62,26,Noodles,1,3,6,3,2018
+house1,554,492,43,18,Laundry Detergents,2,1,2,2,2015
+food6,718,436,197,84,Noodles,2,2,3,3,2016
+house4,595,247,243,104,Pooja Needs,3,2,8,1,2015
+food8,528,210,222,95,Ketchups,3,2,9,8,2015
+clo6,837,251,410,175,Women Shirt,2,2,2,3,2014
+personal17,709,166,380,162,Cartidges,3,3,11,1,2018
+food20,959,200,531,227,Cat Supplies,3,2,9,3,2018
+house3,525,482,30,12,Cleaners,3,3,9,5,2016
+personal6,643,589,37,16,ToothPaste,2,1,12,10,2015
+clo3,752,151,420,180,Men Jeans,3,3,11,1,2016
+food17,658,112,382,163,Breads Grains,2,2,1,5,2014
+food11,573,702,-90,-38,Frozen Foods,3,3,8,2,2014
+food17,824,137,480,206,Breads Grains,1,1,7,9,2016
+personal15,760,401,251,107,Hand Wash,2,2,2,11,2018
+food3,501,316,129,55,Chips,1,1,6,8,2014
+food1,860,271,412,176,Biscuits,1,1,7,11,2017
+house4,919,517,281,120,Pooja Needs,2,2,1,11,2015
+food17,778,164,429,184,Breads Grains,3,2,10,3,2016
+clo10,598,588,7,3,Girls Shirt,2,2,3,5,2018
+personal18,521,322,139,59,Pain Relievers,1,3,6,3,2017
+food18,944,314,441,189,Canned Foods,3,2,11,4,2016
+food7,953,432,364,156,Pickels,1,1,6,8,2017
+personal8,911,196,500,214,MouthWash,1,1,6,7,2014
+food17,671,498,121,51,Breads Grains,3,3,8,4,2018
+personal17,706,552,107,46,Cartidges,3,2,8,2,2018
+house5,998,637,252,108,Tissues & Disposables,3,2,9,8,2017
+clo1,566,197,258,110,Men Shirt,2,2,3,12,2014
+clo5,514,310,142,61,Men Trouser,2,1,1,3,2018
+food13,996,295,490,210,Tea,1,1,6,10,2016
+food3,990,347,450,192,Chips,2,2,1,11,2017
+clo8,627,481,102,43,Women Jeans,3,3,8,10,2017
+food2,810,285,367,157,Namkeen,3,2,8,10,2017
+food16,788,564,156,67,Energy Drink,2,1,12,8,2016
+personal12,967,720,172,74,Face Wash,3,2,11,1,2017
+clo3,576,494,57,24,Men Jeans,1,1,6,6,2016
+food7,943,371,400,171,Pickels,1,3,6,10,2014
+food8,577,389,131,56,Ketchups,1,1,4,7,2016
+house1,773,462,217,93,Laundry Detergents,1,3,4,4,2017
+personal1,688,345,240,102,Shampoo,3,3,10,12,2014
+personal16,868,299,398,170,Razors,1,1,6,4,2017
+personal4,834,148,480,205,Body Lotion,1,3,6,3,2018
+clo6,512,153,251,107,Women Shirt,2,2,12,6,2014
+personal13,656,389,186,80,Lip Care,2,1,1,10,2016
+house2,862,746,81,34,Dishwashes,3,2,9,5,2016
+personal7,665,520,101,43,ToothBrush,3,3,11,3,2016
+food7,986,360,438,187,Pickels,3,2,11,6,2014
+clo8,542,485,39,17,Women Jeans,3,2,10,4,2016
+food9,818,262,389,166,Pasta,3,3,9,8,2017
+clo2,500,488,8,3,Men T-Shirt,3,3,11,3,2018
+clo1,887,705,127,54,Men Shirt,1,1,6,8,2015
+food4,793,189,422,181,Chocklate,1,3,4,4,2014
+clo6,819,699,84,36,Women Shirt,2,2,1,6,2015
+food16,947,519,299,128,Energy Drink,3,3,9,9,2014
+personal13,848,204,450,193,Lip Care,1,3,6,12,2016
+food16,777,332,311,133,Energy Drink,1,1,5,12,2016
+personal6,643,523,84,36,ToothPaste,2,2,2,6,2014
+personal3,761,192,398,170,Hair Oil,1,1,4,2,2014
+personal2,514,472,29,12,Conditioner,2,2,12,2,2016
+clo4,588,309,195,83,Boys Shirt,3,3,8,1,2016
+personal3,625,104,364,156,Hair Oil,1,1,4,12,2018
+house4,573,301,190,81,Pooja Needs,1,3,6,3,2017
+food18,549,215,233,100,Canned Foods,3,2,10,5,2018
+personal14,870,124,522,223,Sanitary Care,1,3,4,1,2015
+personal14,569,340,160,68,Sanitary Care,3,2,8,1,2018
+clo10,751,654,67,29,Girls Shirt,3,2,8,12,2018
+food19,544,581,-25,-11,Dog Supplies,3,3,11,10,2014
+personal8,949,604,241,103,MouthWash,1,1,5,6,2015
+personal11,809,599,147,63,Perfumes,1,1,5,1,2018
+personal2,844,522,225,96,Conditioner,3,3,9,3,2016
+clo8,793,462,231,99,Women Jeans,1,3,6,5,2015
+personal1,956,375,406,174,Shampoo,2,1,3,3,2014
+house1,968,221,522,224,Laundry Detergents,2,2,1,5,2018
+food11,619,518,70,30,Frozen Foods,2,1,2,5,2014
+food18,820,735,59,25,Canned Foods,3,2,10,10,2016
+clo7,684,124,392,168,Women T-Shirt,3,3,10,1,2016
+personal5,674,230,310,133,Face Cream,2,2,12,3,2017
+personal4,794,330,324,139,Body Lotion,1,3,6,7,2016
+personal18,821,214,424,182,Pain Relievers,2,2,1,6,2018
+food10,660,128,372,159,Candy,2,1,1,7,2014
+clo7,644,291,247,105,Women T-Shirt,2,2,2,12,2017
+personal9,715,322,275,117,Men's Deo,2,1,1,3,2018
+house2,606,117,342,146,Dishwashes,3,2,10,12,2018
+food12,761,215,382,163,Soft Drink,3,3,11,9,2014
+house4,743,242,350,150,Pooja Needs,1,1,5,8,2016
+personal12,799,147,456,195,Face Wash,1,1,6,9,2015
+food6,764,257,354,152,Noodles,1,3,6,10,2014
+personal8,937,506,301,129,MouthWash,2,2,12,11,2015
+clo9,879,702,123,53,Women Trouser,2,2,1,9,2014
+food1,760,508,176,75,Biscuits,2,2,1,10,2018
+food1,623,209,289,124,Biscuits,3,2,8,8,2016
+clo1,548,376,120,51,Men Shirt,1,1,5,10,2016
+personal9,842,196,452,193,Men's Deo,3,2,8,8,2017
+personal8,529,317,148,63,MouthWash,2,1,12,9,2014
+food3,864,177,480,206,Chips,1,1,4,6,2017
+food13,795,446,244,104,Tea,1,1,4,3,2016
+personal9,932,255,473,203,Men's Deo,2,2,12,1,2015
+food4,528,456,50,21,Chocklate,1,3,5,1,2016
+clo7,722,246,333,142,Women T-Shirt,3,3,8,3,2016
+personal9,858,342,361,154,Men's Deo,1,3,6,6,2017
+personal18,793,252,378,162,Pain Relievers,1,1,4,3,2018
+clo5,907,601,214,91,Men Trouser,2,2,2,6,2018
+clo1,624,328,207,88,Men Shirt,1,3,4,8,2016
+personal12,913,500,289,123,Face Wash,3,3,9,5,2016
+clo2,980,430,385,165,Men T-Shirt,3,3,11,3,2017
+house1,619,496,86,36,Laundry Detergents,3,3,10,10,2018
+food5,914,340,401,172,Sweets,2,2,2,1,2014
+personal14,914,409,353,151,Sanitary Care,3,3,10,11,2016
+food14,834,619,150,64,Coffee,1,3,7,8,2018
+food17,760,325,304,130,Breads Grains,1,3,6,1,2014
+clo8,756,366,273,117,Women Jeans,3,2,11,11,2014
+clo7,743,681,43,18,Women T-Shirt,1,1,4,7,2018
+personal2,557,475,57,24,Conditioner,2,2,3,4,2018
+food19,991,665,228,97,Dog Supplies,3,3,10,11,2018
+food11,971,424,382,164,Frozen Foods,3,2,9,1,2014
+clo3,893,424,328,140,Men Jeans,3,2,10,11,2015
+food7,660,624,25,10,Pickels,3,3,10,5,2014
+food2,583,379,142,61,Namkeen,3,2,10,1,2016
+personal9,729,356,261,111,Men's Deo,3,2,9,1,2015
+personal13,837,475,253,108,Lip Care,2,1,3,10,2017
+personal16,837,680,109,47,Razors,2,2,1,1,2014
+food4,855,172,478,204,Chocklate,2,1,3,2,2018
+clo5,951,394,389,167,Men Trouser,1,3,5,8,2018
+clo2,613,138,332,142,Men T-Shirt,1,1,6,6,2016
+personal16,605,421,128,55,Razors,2,2,3,4,2018
+food7,892,337,388,166,Pickels,2,2,1,6,2016
+food7,962,663,209,89,Pickels,1,3,7,4,2018
+personal11,844,184,462,198,Perfumes,3,3,11,8,2018
+house5,938,256,477,204,Tissues & Disposables,2,2,3,12,2014
+personal9,862,586,193,82,Men's Deo,3,3,9,3,2015
+clo8,511,425,60,25,Women Jeans,1,1,5,11,2018
+clo9,857,367,343,147,Women Trouser,3,3,10,12,2014
+food15,670,318,246,105,Milk Drink,2,2,3,2,2018
+personal14,586,177,286,122,Sanitary Care,3,2,8,6,2014
+food15,667,385,197,84,Milk Drink,1,1,5,10,2016
+clo4,989,634,248,106,Boys Shirt,3,3,9,1,2017
+food13,619,547,50,21,Tea,2,2,2,9,2015
+clo4,866,108,530,227,Boys Shirt,1,1,6,7,2018
+clo2,533,522,7,3,Men T-Shirt,3,2,9,8,2016
+house2,744,575,118,50,Dishwashes,3,3,8,7,2014
+personal15,587,260,228,98,Hand Wash,1,3,6,3,2018
+clo1,599,132,326,140,Men Shirt,3,3,11,3,2018
+personal5,689,665,16,7,Face Cream,1,1,4,4,2014
+food17,915,451,324,139,Breads Grains,1,1,5,8,2015
+personal16,562,688,-88,-37,Razors,3,3,10,4,2014
+house5,661,438,156,66,Tissues & Disposables,3,3,8,3,2017
+food8,720,691,20,8,Ketchups,3,3,11,7,2018
+food17,763,563,140,60,Breads Grains,2,2,3,10,2016
+clo1,939,713,158,67,Men Shirt,2,1,3,5,2015
+food10,981,616,255,109,Candy,3,2,10,3,2016
+food14,939,717,155,66,Coffee,1,3,4,8,2016
+food19,858,672,130,55,Dog Supplies,1,3,7,11,2015
+house1,928,349,405,173,Laundry Detergents,3,3,9,7,2017
+food2,554,260,205,88,Namkeen,3,2,8,1,2017
+personal5,741,729,8,3,Face Cream,1,1,4,6,2016
+food4,804,316,341,146,Chocklate,3,3,9,7,2018
+personal1,969,256,499,213,Shampoo,3,3,10,3,2017
+personal13,544,385,111,47,Lip Care,1,1,5,11,2015
+food18,515,577,-43,-18,Canned Foods,3,3,8,8,2018
+personal16,834,159,472,202,Razors,2,2,2,9,2017
+food20,950,248,491,210,Cat Supplies,2,1,1,8,2015
+food8,868,732,95,40,Ketchups,3,2,8,3,2017
+clo5,848,190,460,197,Men Trouser,3,2,11,2,2014
+personal12,600,568,22,9,Face Wash,3,3,9,3,2018
+food13,692,362,231,99,Tea,2,1,2,6,2014
+personal13,611,208,282,120,Lip Care,1,3,6,10,2018
+food17,615,186,300,128,Breads Grains,2,1,2,8,2017
+personal14,532,623,-63,-27,Sanitary Care,3,3,10,8,2017
+personal14,808,720,61,26,Sanitary Care,3,2,11,1,2015
+personal5,740,193,382,164,Face Cream,2,2,3,2,2014
+clo3,596,541,38,16,Men Jeans,3,3,11,1,2014
+food20,618,380,166,71,Cat Supplies,3,3,8,11,2017
+food14,974,744,161,69,Coffee,1,3,6,10,2014
+food1,881,542,237,101,Biscuits,1,1,7,10,2014
+food15,515,365,105,45,Milk Drink,3,3,8,10,2018
+food11,516,340,123,52,Frozen Foods,2,1,2,10,2016
+food2,997,476,364,156,Namkeen,2,2,2,2,2014
+food17,965,423,379,162,Breads Grains,3,2,9,3,2015
+personal16,894,529,255,109,Razors,3,3,9,5,2016
+personal1,978,738,168,72,Shampoo,1,3,5,4,2017
+food10,682,245,305,131,Candy,1,1,5,10,2016
+personal10,735,724,7,3,Women's Deo,3,3,8,6,2018
+food18,629,495,93,40,Canned Foods,1,1,5,3,2016
+personal6,612,591,14,6,ToothPaste,1,1,7,10,2016
+house1,632,160,330,141,Laundry Detergents,2,1,3,8,2015
+food19,769,153,431,184,Dog Supplies,2,2,2,4,2018
+food1,503,363,98,42,Biscuits,3,3,10,10,2016
+food4,813,320,345,147,Chocklate,3,3,10,9,2014
+personal17,928,483,311,133,Cartidges,1,3,5,11,2017
+personal17,788,563,157,67,Cartidges,3,3,11,2,2017
+personal1,525,271,177,76,Shampoo,1,3,6,5,2018
+food7,862,167,486,208,Pickels,3,3,8,9,2015
+clo6,588,749,-112,-48,Women Shirt,2,1,1,1,2014
+personal3,872,656,151,64,Hair Oil,3,2,11,12,2016
+clo10,503,618,-80,-34,Girls Shirt,2,1,12,10,2015
+clo4,579,490,62,26,Boys Shirt,3,3,9,10,2016
+personal13,962,497,325,139,Lip Care,3,2,11,4,2018
+house3,884,334,385,165,Cleaners,3,3,8,12,2014
+personal10,647,455,134,57,Women's Deo,1,3,7,10,2014
+personal17,663,329,233,100,Cartidges,1,3,6,1,2018
+food7,757,341,291,124,Pickels,2,1,3,9,2015
+personal6,646,354,204,87,ToothPaste,2,1,12,3,2014
+personal17,717,632,59,25,Cartidges,2,2,12,6,2016
+food17,740,569,119,51,Breads Grains,3,2,8,10,2017
+personal17,950,512,306,131,Cartidges,1,1,6,4,2015
+food11,991,540,315,135,Frozen Foods,2,1,12,7,2017
+personal15,681,132,384,164,Hand Wash,2,1,12,9,2014
+personal16,939,719,154,66,Razors,2,1,2,10,2016
+personal10,508,533,-17,-7,Women's Deo,1,1,5,2,2017
+personal4,976,718,180,77,Body Lotion,2,1,3,8,2014
+personal1,821,228,415,177,Shampoo,2,2,3,10,2017
+personal11,506,730,-156,-67,Perfumes,1,1,6,5,2015
+clo2,745,335,287,123,Men T-Shirt,3,3,10,10,2017
+personal9,614,350,184,79,Men's Deo,3,3,10,5,2018
+personal7,687,340,242,104,ToothBrush,1,1,6,7,2017
+house5,895,214,476,204,Tissues & Disposables,2,2,3,11,2016
+food14,741,180,392,168,Coffee,3,3,8,5,2016
+house3,751,568,128,54,Cleaners,3,3,10,1,2018
+food13,914,490,296,127,Tea,1,1,4,8,2017
+personal6,927,380,382,164,ToothPaste,3,2,9,10,2015
+personal7,783,545,166,71,ToothBrush,2,2,2,5,2018
+personal11,505,135,259,111,Perfumes,3,2,9,10,2016
+personal17,604,310,205,88,Cartidges,1,1,7,10,2016
+house1,549,613,-44,-19,Laundry Detergents,3,3,10,2,2016
+personal18,905,281,436,187,Pain Relievers,2,2,1,5,2016
+food7,663,318,241,103,Pickels,2,2,1,11,2014
+food9,802,432,259,111,Pasta,2,1,1,2,2017
+food18,713,577,95,40,Canned Foods,2,2,12,4,2018
+food2,894,542,246,105,Namkeen,2,2,1,4,2017
+personal1,798,128,469,201,Shampoo,1,1,7,1,2018
+food1,818,341,333,143,Biscuits,1,3,6,6,2016
+food5,596,461,94,40,Sweets,1,3,4,10,2017
+food15,520,394,88,37,Milk Drink,1,3,6,12,2014
+personal15,628,430,138,59,Hand Wash,2,2,3,3,2017
+food10,917,510,284,122,Candy,2,1,3,5,2017
+personal18,668,195,331,141,Pain Relievers,3,2,8,6,2018
+house4,893,389,352,151,Pooja Needs,3,3,11,11,2015
+food4,854,405,314,134,Chocklate,3,3,11,10,2018
+personal8,747,732,10,4,MouthWash,2,2,12,2,2017
+clo6,774,738,25,10,Women Shirt,3,3,10,5,2016
+food2,951,539,288,123,Namkeen,2,2,1,4,2015
+house4,912,245,466,200,Pooja Needs,1,1,7,3,2015
+food20,696,547,104,44,Cat Supplies,1,1,4,11,2018
+food13,662,272,273,117,Tea,3,3,11,10,2017
+house1,612,482,91,39,Laundry Detergents,3,3,8,9,2016
+personal15,732,599,93,39,Hand Wash,3,2,9,7,2016
+food3,807,275,372,159,Chips,3,3,8,6,2016
+food16,834,728,74,31,Energy Drink,3,3,10,7,2015
+clo9,910,480,301,129,Women Trouser,2,2,2,2,2014
+food9,686,242,310,133,Pasta,3,3,10,2,2017
+food15,518,170,243,104,Milk Drink,2,1,12,8,2015
+clo3,528,181,242,104,Men Jeans,2,2,3,11,2016
+clo8,611,413,138,59,Women Jeans,3,3,8,9,2016
+food7,680,462,152,65,Pickels,3,3,11,1,2015
+personal6,531,369,113,48,ToothPaste,3,2,9,7,2014
+food1,656,446,147,63,Biscuits,1,3,7,5,2018
+food6,816,455,252,108,Noodles,1,1,5,8,2014
+clo4,616,132,338,145,Boys Shirt,3,2,8,2,2016
+personal11,963,375,411,176,Perfumes,1,1,7,11,2015
+food9,725,581,100,43,Pasta,3,3,9,12,2016
+food8,982,566,291,124,Ketchups,1,1,5,4,2016
+house5,832,196,445,190,Tissues & Disposables,2,1,12,8,2017
+personal2,849,339,357,153,Conditioner,1,1,6,6,2016
+clo6,546,165,266,114,Women Shirt,2,2,2,2,2017
+personal4,824,323,350,150,Body Lotion,3,2,9,2,2017
+personal12,533,100,303,129,Face Wash,1,3,7,3,2015
+food11,985,635,245,105,Frozen Foods,2,2,1,3,2017
+personal17,974,588,270,115,Cartidges,2,1,3,12,2014
+personal9,705,435,189,81,Men's Deo,2,1,1,4,2015
