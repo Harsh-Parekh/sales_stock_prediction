@@ -12,3 +12,4 @@ UPLOAD_FOLDER = 'base/static/datasetfiles'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 import base.com.controller
+print("Hello")
